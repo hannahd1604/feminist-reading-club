@@ -1,0 +1,41 @@
+---
+layout: page
+title: Sessions
+description: All FRC sessions — topics, questions, and materials.
+---
+
+<div class="row gx-4 gx-lg-5 justify-content-center">
+  <div class="col-md-10 col-lg-8 col-xl-7">
+
+    {% for post in paginator.posts %}
+    <div class="post-preview">
+      <a href="{{ post.url | relative_url }}">
+        <h2 class="post-title">{{ post.title }}</h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+        {% endif %}
+      </a>
+      <p class="post-meta">
+        {{ post.date | date: "%B %Y" }}
+      </p>
+    </div>
+    <hr class="my-4" />
+    {% endfor %}
+
+    {% if paginator.total_pages > 1 %}
+    <div class="d-flex justify-content-end mb-4">
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="btn btn-primary text-uppercase me-3">
+        &larr; Newer
+      </a>
+      {% endif %}
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="btn btn-primary text-uppercase">
+        Older &rarr;
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+  </div>
+</div>

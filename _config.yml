@@ -1,0 +1,41 @@
+title: Feminist Reading Club
+description: >-
+  Monthly gatherings for cosy, insightful discussions on intersectional
+  feminist topics — guided by papers, essays, films, and books.
+  Based in Brussels.
+baseurl: ""
+url: "https://feminist-reading-club.com"
+
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  books:
+    output: true
+    permalink: /books/:name/
+
+# Session posts use /sessions/ URL prefix
+permalink: /sessions/:title/
+
+# Pagination — sessions index is the paginator base
+paginate: 14
+paginate_path: "/sessions/page:num/"
+
+# Global defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "books"
+    values:
+      layout: "book"

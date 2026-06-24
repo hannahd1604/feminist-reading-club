@@ -1,0 +1,25 @@
+---
+layout: page
+title: Book Club
+description: Books we have read together.
+---
+
+<div class="row gx-4 gx-lg-5 justify-content-center">
+  <div class="col-md-10 col-lg-8 col-xl-7">
+
+    {% assign sorted_books = site.books | sort: 'date' | reverse %}
+    {% for book in sorted_books %}
+    <div class="post-preview">
+      <a href="{{ book.url | relative_url }}">
+        <h2 class="post-title">{{ book.title }}</h2>
+        <h3 class="post-subtitle">{{ book.author }}{% if book.year %} &middot; {{ book.year }}{% endif %}</h3>
+      </a>
+      {% if book.date %}
+      <p class="post-meta">{{ book.date | date: "%B %Y" }}</p>
+      {% endif %}
+    </div>
+    <hr class="my-4" />
+    {% endfor %}
+
+  </div>
+</div>

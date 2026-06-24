@@ -1,0 +1,180 @@
+---
+layout: default
+---
+
+<style>
+:root {
+  --g:   #fdf5f7;
+  --s:   #f5edf5;
+  --t:   #2a1f0e;
+  --m:   #7a6d5a;
+  --ru:  #e0d4e8;
+  --pu:  #4a1f6a;
+  --pum: #7040a0;
+  --gr:  #1e3d22;
+  --grm: #2c5a32;
+}
+
+body {
+  background: var(--g);
+  background-image: repeating-linear-gradient(
+    transparent 0px, transparent 30px,
+    rgba(74,31,106,0.04) 30px, rgba(74,31,106,0.04) 31px
+  );
+  color: var(--t);
+  font-family: 'Calibri', system-ui, sans-serif;
+}
+
+/* ─── Hero ──────────────────────────────────────── */
+.frc-hero {
+  padding: 3rem 3rem 2.5rem;
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 3rem; align-items: center;
+}
+.frc-stamp {
+  display: inline-block; border: 1.5px solid var(--pu); color: var(--pu);
+  font-family: 'Courier New', Courier, monospace; font-size: 0.68rem;
+  letter-spacing: 0.2em; text-transform: uppercase; padding: 0.25rem 0.75rem;
+  margin-bottom: 1.4rem; transform: rotate(-1.2deg);
+}
+.frc-hero h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: clamp(1.9rem, 4vw, 2.9rem); font-weight: bold;
+  line-height: 1.08; letter-spacing: -0.02em; color: var(--t); margin-bottom: 1.2rem;
+}
+.frc-hero-sub {
+  font-size: 0.88rem; color: var(--m); max-width: 380px; line-height: 1.72;
+  border-left: 2px solid var(--gr); padding-left: 1rem;
+}
+.frc-hero-img img { width: 100%; max-width: 380px; display: block; margin: 0 auto; }
+
+/* ─── Eyebrow labels ────────────────────────────── */
+.frc-eyebrow {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.68rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--pum);
+  margin-bottom: 1.4rem; display: flex; align-items: center; gap: 0.8rem;
+}
+.frc-eyebrow img { width: 4rem; height: 4rem; flex-shrink: 0; }
+.frc-eyebrow::after { content: ''; flex: 1; height: 1px; background: var(--ru); }
+
+/* ─── Sessions grid ─────────────────────────────── */
+.frc-sessions { padding: 2rem 3rem 2.5rem; }
+.frc-sgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.2rem; }
+.frc-scard {
+  background: #fff; border: 1px solid var(--ru); border-radius: 2px;
+  padding: 1.4rem 1.4rem 1.6rem; position: relative; display: block;
+  text-decoration: none;
+  box-shadow: 0 2px 10px rgba(74,31,106,0.07);
+  transition: transform .15s, box-shadow .15s;
+}
+.frc-scard::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; border-radius: 2px 2px 0 0;
+}
+.frc-scard:nth-child(4n+1)::before { background: var(--pu); }
+.frc-scard:nth-child(4n+2)::before { background: var(--gr); }
+.frc-scard:nth-child(4n+3)::before { background: var(--pum); }
+.frc-scard:nth-child(4n+0)::before { background: var(--grm); }
+.frc-scard:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(74,31,106,0.13); }
+.frc-scard-num {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.65rem;
+  color: var(--m); letter-spacing: 0.1em; margin-bottom: 0.6rem;
+}
+.frc-scard-title {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.97rem;
+  font-weight: bold; color: var(--t); margin-bottom: 0.45rem; line-height: 1.25;
+}
+.frc-scard-sub { font-size: 0.79rem; color: var(--m); line-height: 1.52; }
+
+.frc-view-all { margin-top: 1.4rem; text-align: right; }
+.frc-view-all a {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.72rem;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--pu);
+  text-decoration: none; border-bottom: 1px solid rgba(74,31,106,0.3);
+  padding-bottom: 1px; transition: border-color .12s, color .12s;
+}
+.frc-view-all a:hover { color: var(--gr); border-color: var(--gr); }
+
+/* ─── Book Club ─────────────────────────────────── */
+.frc-books {
+  background: var(--s); padding: 2rem 3rem 2.5rem;
+  border-top: 1px solid var(--ru);
+}
+.frc-bgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.1rem; }
+.frc-bcard {
+  background: #fff; border: 1px solid var(--ru); border-radius: 2px;
+  padding: 1.2rem 1.2rem 1.4rem; position: relative; display: block;
+  text-decoration: none;
+  box-shadow: 0 2px 10px rgba(74,31,106,0.07);
+  transition: transform .15s, box-shadow .15s;
+}
+.frc-bcard::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; border-radius: 2px 2px 0 0;
+}
+.frc-bcard:nth-child(4n+1)::before { background: var(--pu); }
+.frc-bcard:nth-child(4n+2)::before { background: var(--gr); }
+.frc-bcard:nth-child(4n+3)::before { background: var(--pum); }
+.frc-bcard:nth-child(4n+0)::before { background: var(--grm); }
+.frc-bcard:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(74,31,106,0.12); }
+.frc-bcard-title {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.92rem;
+  font-weight: bold; color: var(--t); margin-bottom: 0.35rem; line-height: 1.25;
+}
+.frc-bcard-author { font-size: 0.78rem; color: var(--m); font-style: italic; }
+
+/* ─── Responsive ────────────────────────────────── */
+@media (max-width: 700px) {
+  .frc-hero { grid-template-columns: 1fr; gap: 1.5rem; padding: 2rem 1.4rem; }
+  .frc-sessions, .frc-books { padding: 1.5rem 1.4rem 2rem; }
+}
+</style>
+
+{% assign sessions_chron = site.posts | reverse %}
+
+<!-- Hero -->
+<div class="frc-hero">
+  <div>
+    <div class="frc-stamp">Brussels &middot; Est. ongoing</div>
+    <h1>Feminist<br>Reading<br>Club.</h1>
+    <p class="frc-hero-sub">A monthly gathering for honest, curious conversations about feminism and the world we live in. We use papers, essays, films, and books to spark discussion — but keep the prep light and the company warm.</p>
+  </div>
+  <div class="frc-hero-img">
+    <img src="{{ '/assets/img/main.png' | relative_url }}" alt="Feminist Reading Club illustration">
+  </div>
+</div>
+
+<!-- Recent sessions (5 most recent) -->
+<div class="frc-sessions">
+  <div class="frc-eyebrow"><img src="{{ '/assets/img/material.png' | relative_url }}" alt="">Recent Sessions</div>
+  <div class="frc-sgrid">
+    {% for post in site.posts limit: 5 %}
+      <a class="frc-scard" href="{{ post.url | relative_url }}">
+        {% assign snum = sessions_chron.size %}
+        {% for p in sessions_chron %}{% if p.url == post.url %}{% assign snum = forloop.index %}{% endif %}{% endfor %}
+        <div class="frc-scard-num">
+          {% if snum < 10 %}0{{ snum }}{% else %}{{ snum }}{% endif %}
+          &middot; {{ post.date | date: "%b %Y" }}
+        </div>
+        <div class="frc-scard-title">{{ post.title }}</div>
+        {% if post.subtitle %}<div class="frc-scard-sub">{{ post.subtitle }}</div>{% endif %}
+      </a>
+    {% endfor %}
+  </div>
+  <div class="frc-view-all"><a href="{{ '/sessions' | relative_url }}">View all {{ site.posts | size }} sessions &rarr;</a></div>
+</div>
+
+<!-- Book Club -->
+{% assign books_sorted = site.books | sort: 'date' | reverse %}
+{% if books_sorted.size > 0 %}
+<div class="frc-books">
+  <div class="frc-eyebrow"><img src="{{ '/assets/img/book.png' | relative_url }}" alt="">Book Club</div>
+  <div class="frc-bgrid">
+    {% for book in books_sorted %}
+      <a class="frc-bcard" href="{{ book.url | relative_url }}">
+        <div class="frc-bcard-title">{{ book.title }}</div>
+        <div class="frc-bcard-author">{{ book.author }}{% if book.year %} &middot; {{ book.year }}{% endif %}</div>
+      </a>
+    {% endfor %}
+  </div>
+  <div class="frc-view-all"><a href="{{ '/books' | relative_url }}">View all books &rarr;</a></div>
+</div>
+{% endif %}

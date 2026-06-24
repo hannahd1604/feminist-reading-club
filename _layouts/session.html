@@ -1,0 +1,355 @@
+---
+layout: default
+---
+
+<style>
+/* ─── CSS variables ─────────────────────────────── */
+:root {
+  --g:   #fdf5f7;
+  --s:   #f5edf5;
+  --t:   #2a1f0e;
+  --m:   #7a6d5a;
+  --ru:  #e0d4e8;
+  --pu:  #4a1f6a;
+  --pum: #7040a0;
+  --gr:  #1e3d22;
+}
+
+/* ─── Page ground ───────────────────────────────── */
+body {
+  background: var(--g);
+  background-image: repeating-linear-gradient(
+    transparent 0px, transparent 30px,
+    rgba(74,31,106,0.04) 30px, rgba(74,31,106,0.04) 31px
+  );
+  color: var(--t);
+  font-family: 'Calibri', system-ui, sans-serif;
+}
+
+/* ─── Masthead ──────────────────────────────────── */
+.frc-masthead {
+  background: var(--pu);
+  background-image: repeating-linear-gradient(
+    transparent 0px, transparent 30px,
+    rgba(255,255,255,0.04) 30px, rgba(255,255,255,0.04) 31px
+  );
+  padding: 2.8rem 3rem 2.4rem;
+  border-bottom: 3px solid var(--gr);
+}
+.frc-masthead .stamp {
+  display: inline-block;
+  border: 1.5px solid rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.7);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase;
+  padding: 0.25rem 0.75rem; margin-bottom: 1.2rem; transform: rotate(-1deg);
+}
+.frc-masthead h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: clamp(2rem, 4.5vw, 3rem); font-weight: bold;
+  color: #fff; line-height: 1.1; margin-bottom: 0.8rem;
+}
+.frc-masthead .tagline {
+  font-size: 1rem; color: rgba(255,255,255,0.8);
+  max-width: 580px; line-height: 1.55; margin: 0;
+}
+
+/* ─── Two-column body ───────────────────────────── */
+.frc-page-body {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 0;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 3rem 4rem;
+  align-items: start;
+}
+
+/* ─── Main column ───────────────────────────────── */
+.frc-main {
+  padding: 2.5rem 3rem 2rem 0;
+  border-right: 1px solid var(--ru);
+}
+
+/* Summary: first paragraph of the post gets highlight treatment */
+.frc-main > p:first-of-type {
+  background: rgba(74,31,106,0.05);
+  border-left: 3px solid var(--gr);
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 2.2rem;
+  font-size: 0.93rem;
+  line-height: 1.72;
+}
+
+/* Section heads (injected by layout around content) */
+.section-head {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.84rem; letter-spacing: 0.14em; text-transform: uppercase;
+  font-weight: bold; color: var(--pum);
+  margin-bottom: 1.1rem; margin-top: 2.2rem;
+  display: flex; align-items: center; gap: 1rem;
+  scroll-margin-top: 5rem;
+}
+.section-head::after { content: ''; flex: 1; height: 1px; background: var(--ru); }
+
+/* ─── Section head icons ────────────────────────── */
+.section-head[id="materials"]::before,
+.section-head[id="structure"]::before {
+  content: '';
+  width: 4rem;
+  height: 4rem;
+  flex-shrink: 0;
+  background: center/contain no-repeat;
+}
+.section-head[id="materials"]::before {
+  background-image: url('/assets/img/material.png');
+}
+.section-head[id="structure"]::before {
+  background-image: url('/assets/img/structure.png');
+}
+
+/* ─── Materials ─────────────────────────────────── */
+.materials-block { margin-bottom: 0.6rem; }
+.materials-label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem; font-weight: bold; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--gr); margin-bottom: 0.5rem;
+}
+.materials-list {
+  list-style: none; padding: 0; margin: 0 0 1.2rem;
+}
+.materials-list li {
+  padding: 0.35rem 0 0.35rem 1.2rem;
+  font-size: 0.87rem; color: var(--t);
+  position: relative; line-height: 1.55;
+}
+.materials-list li::before {
+  content: '→'; position: absolute; left: 0;
+  color: var(--pum); font-size: 0.75rem; top: 0.42rem;
+}
+.materials-list a {
+  font-size: 0.85rem; color: var(--gr);
+  text-decoration: none; border-bottom: 1px solid rgba(30,61,34,0.3);
+}
+.materials-list a:hover { color: var(--pu); border-bottom-color: var(--pu); }
+.materials-list .dur {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.68rem; color: var(--m); margin-left: 0.4rem;
+}
+
+/* ─── Structure ─────────────────────────────────── */
+.structure-list {
+  list-style: none; padding: 0; counter-reset: step; margin-bottom: 0.5rem;
+}
+.structure-list > li {
+  counter-increment: step;
+  padding: 0.55rem 0 0.55rem 2.6rem;
+  font-size: 0.87rem; position: relative;
+  border-bottom: 1px solid rgba(224,212,232,0.5);
+  line-height: 1.5;
+}
+.structure-list > li:last-child { border-bottom: none; }
+.structure-list > li::before {
+  content: counter(step, decimal-leading-zero);
+  position: absolute; left: 0; top: 0.55rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.68rem; color: var(--pu); font-weight: bold; letter-spacing: 0.04em;
+}
+.structure-list li ul {
+  list-style: none; margin-top: 0.45rem; padding: 0;
+}
+.structure-list li ul li {
+  padding: 0.22rem 0 0.22rem 1.1rem;
+  font-size: 0.82rem; color: var(--m);
+  position: relative; line-height: 1.5;
+  border-bottom: none; counter-increment: none;
+}
+.structure-list li ul li::before {
+  content: '·'; position: absolute; left: 0; top: 0.2rem;
+  color: var(--pum); font-size: 1rem; font-weight: bold;
+}
+
+/* ─── Comments ──────────────────────────────────── */
+.frc-comments { margin-top: 2.8rem; }
+.frc-comments-tabs { display: flex; border-bottom: 1.5px solid var(--ru); margin-bottom: 1.4rem; }
+.ctab {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.72rem;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 0.6rem 1.1rem; border: none; background: transparent;
+  cursor: pointer; color: var(--m);
+  border-bottom: 2px solid transparent; margin-bottom: -1.5px;
+  transition: color .12s;
+}
+.ctab.active { color: var(--pu); border-bottom-color: var(--pu); }
+.comment-note { font-size: 0.8rem; color: var(--m); margin-bottom: 1.1rem; font-style: italic; }
+.cform { display: flex; flex-direction: column; gap: 0.85rem; }
+.cform input, .cform textarea {
+  font-family: 'Calibri', system-ui, sans-serif; font-size: 0.88rem;
+  border: 1px solid var(--ru); border-radius: 2px;
+  padding: 0.65rem 0.9rem; background: #fff; color: var(--t); width: 100%;
+  transition: border-color .12s;
+}
+.cform input:focus, .cform textarea:focus { outline: none; border-color: var(--pum); }
+.cform textarea { resize: vertical; min-height: 110px; line-height: 1.55; }
+.cform button {
+  align-self: flex-start;
+  font-family: 'Courier New', Courier, monospace; font-size: 0.72rem;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  background: var(--pu); color: #fff; border: none;
+  padding: 0.7rem 1.4rem; cursor: pointer; border-radius: 2px;
+  transition: background .12s;
+}
+.cform button:hover { background: var(--pum); }
+
+/* ─── Sidebar ───────────────────────────────────── */
+.frc-sidebar { padding: 2.5rem 0 2rem 2rem; }
+.sidebar-back {
+  display: block; margin-bottom: 1.6rem;
+  font-family: 'Courier New', Courier, monospace; font-size: 0.68rem;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--m);
+  text-decoration: none; transition: color .12s;
+}
+.sidebar-back:hover { color: var(--pu); }
+.sidebar-label {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.65rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--pum);
+  margin-bottom: 0.8rem; padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--ru);
+}
+.slink {
+  padding: 0.75rem 0; border-bottom: 1px solid rgba(224,212,232,0.5);
+  transition: padding-left .12s;
+}
+.slink:last-child { border-bottom: none; }
+.slink:hover { padding-left: 4px; }
+.slink-num {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.6rem;
+  color: var(--m); letter-spacing: 0.08em; margin-bottom: 0.2rem;
+}
+.slink-title {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.8rem;
+  font-weight: bold; line-height: 1.25;
+}
+.slink-title a { color: var(--t); text-decoration: none; }
+.slink-title a:hover { color: var(--pu); }
+.slink.current .slink-title a { color: var(--pu); }
+.slink.current {
+  background: rgba(74,31,106,0.04);
+  padding: 0.75rem 0.6rem; border-radius: 2px;
+}
+.sidebar-divider { margin: 1.6rem 0 1.2rem; border: none; border-top: 1px solid var(--ru); }
+
+/* ─── Jump nav ──────────────────────────────────── */
+.session-jumps {
+  display: flex; gap: 0.6rem; margin-top: 1.4rem; flex-wrap: wrap;
+}
+.session-jumps a {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.65rem; letter-spacing: 0.14em; text-transform: uppercase;
+  color: rgba(255,255,255,0.85);
+  border: 1px solid rgba(255,255,255,0.35);
+  padding: 0.3rem 0.85rem; border-radius: 2px;
+  text-decoration: none; transition: background .12s, color .12s;
+}
+.session-jumps a:hover {
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+}
+
+/* ─── Responsive ────────────────────────────────── */
+@media (max-width: 760px) {
+  .frc-masthead { padding: 2rem 1.4rem 1.8rem; }
+  .frc-page-body {
+    grid-template-columns: 1fr;
+    padding: 0 1.4rem 3rem;
+  }
+  .frc-main { padding: 2rem 0; border-right: none; border-bottom: 1px solid var(--ru); }
+  .frc-sidebar { padding: 1.5rem 0 0; }
+}
+</style>
+
+{% comment %} Calculate chronological session number {% endcomment %}
+{% assign sessions_chron = site.posts | reverse %}
+{% assign session_num = 1 %}
+{% for p in sessions_chron %}
+  {% if p.url == page.url %}{% assign session_num = forloop.index %}{% endif %}
+{% endfor %}
+
+<!-- Session masthead -->
+<div class="frc-masthead">
+  <div class="stamp">
+    Session {% if session_num < 10 %}0{{ session_num }}{% else %}{{ session_num }}{% endif %}
+    &middot; {{ page.date | date: "%B %Y" }}
+  </div>
+  <h1>{{ page.title }}</h1>
+  {% if page.subtitle %}<p class="tagline">{{ page.subtitle }}</p>{% endif %}
+  <div class="session-jumps">
+    <a href="#materials">↓ Materials</a>
+    <a href="#structure">↓ Session structure</a>
+  </div>
+</div>
+
+<!-- Page body -->
+<div class="frc-page-body">
+
+  <!-- Main content -->
+  <main class="frc-main">
+
+    {{ content }}
+
+    <!-- Comment form -->
+    <div class="frc-comments">
+      <div class="frc-comments-tabs">
+        <button class="ctab active">Leave a comment</button>
+      </div>
+      <p class="comment-note">Comments are reviewed by the organisers before appearing here.</p>
+      <form class="cform" action="https://submit.formspark.io/f/2x0lSx5iZ" method="POST">
+        <input type="text" name="name" placeholder="Name (optional)">
+        <input type="email" name="email" placeholder="Email (not shown publicly)" required>
+        <input type="hidden" name="session" value="{{ page.title }}">
+        <textarea name="message" placeholder="A thought, a question, a recommendation connected to this session…"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+  </main>
+
+  <!-- Sidebar -->
+  <aside class="frc-sidebar">
+    <a class="sidebar-back" href="{{ '/sessions' | relative_url }}">← All sessions</a>
+
+    <div class="sidebar-label">More sessions</div>
+
+    {% for post in site.posts limit: 9 %}
+      {% assign slink_num = 1 %}
+      {% for p in sessions_chron %}
+        {% if p.url == post.url %}{% assign slink_num = forloop.index %}{% endif %}
+      {% endfor %}
+      <div class="slink {% if post.url == page.url %}current{% endif %}">
+        <div class="slink-num">
+          {% if slink_num < 10 %}0{{ slink_num }}{% else %}{{ slink_num }}{% endif %}
+          &middot; {{ post.date | date: "%b %Y" }}
+        </div>
+        <div class="slink-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </div>
+      </div>
+    {% endfor %}
+
+    <hr class="sidebar-divider">
+
+    <div class="sidebar-label"><img src="{{ '/assets/img/book.png' | relative_url }}" alt="" style="width:4rem;height:4rem;vertical-align:middle;margin-right:0.6rem;">Book Club</div>
+    {% assign books_sorted = site.books | sort: 'date' | reverse %}
+    {% for book in books_sorted %}
+      <div class="slink">
+        <div class="slink-num">{{ book.year }}</div>
+        <div class="slink-title">
+          <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
+          <span style="font-weight:normal; color: var(--m)"> — {{ book.author }}</span>
+        </div>
+      </div>
+    {% endfor %}
+
+  </aside>
+
+</div>
