@@ -1,33 +1,111 @@
 ---
 layout: default
 ---
+<style>
+:root {
+  --g:   #fdf5f7;
+  --t:   #2a1f0e;
+  --m:   #5a4e40;
+  --ru:  #e0d4e8;
+  --pu:  #4a1f6a;
+  --pum: #7040a0;
+  --gr:  #1e3d22;
+}
+body {
+  background: var(--g);
+  background-image: repeating-linear-gradient(
+    transparent 0px, transparent 30px,
+    rgba(74,31,106,0.04) 30px, rgba(74,31,106,0.04) 31px
+  );
+  color: var(--t);
+  font-family: 'Calibri', system-ui, sans-serif;
+}
 
-<!-- Book Club page header -->
-<header class="masthead" style="background-color: #4a1f6a;">
-    <div class="container position-relative px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-md-10 col-lg-8 col-xl-7">
-                <div class="post-heading">
-                    <h1>{{ page.title }}</h1>
-                    <h2 class="subheading">{{ page.author }}{% if page.year %} &middot; {{ page.year }}{% endif %}</h2>
-                    {% if page.date %}
-                    <span class="meta">Book Club &middot; {{ page.date | date: "%B %Y" }}</span>
-                    {% else %}
-                    <span class="meta">Book Club</span>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+/* ─── Masthead ──────────────────────────────────── */
+.book-masthead {
+  background: var(--pu);
+  background-image: repeating-linear-gradient(
+    transparent 0px, transparent 30px,
+    rgba(255,255,255,0.04) 30px, rgba(255,255,255,0.04) 31px
+  );
+  padding: 2.8rem 3rem 2.4rem;
+  border-bottom: 3px solid var(--gr);
+  display: flex; align-items: center; gap: 2rem;
+}
+.book-masthead-img { width: 6rem; height: 6rem; flex-shrink: 0; }
+.book-masthead-text .stamp {
+  display: inline-block;
+  border: 1.5px solid rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.7);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase;
+  padding: 0.2rem 0.7rem; margin-bottom: 1rem; transform: rotate(-1deg);
+}
+.book-masthead-text h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: clamp(1.6rem, 4vw, 2.6rem); font-weight: bold;
+  color: #fff; line-height: 1.15; margin-bottom: 0.45rem;
+}
+.book-masthead-text .book-author {
+  font-size: 1rem; color: rgba(255,255,255,0.8);
+  font-style: italic; margin: 0;
+}
 
-<!-- Post Content -->
-<article class="mb-4">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-md-10 col-lg-8 col-xl-7">
-                {{ content }}
-            </div>
-        </div>
-    </div>
-</article>
+/* ─── Back link ─────────────────────────────────── */
+.book-back {
+  max-width: 720px; margin: 0 auto; padding: 1.6rem 2rem 0;
+}
+.book-back a {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--pum); text-decoration: none;
+}
+.book-back a:hover { color: var(--pu); }
+
+/* ─── Body ──────────────────────────────────────── */
+.book-body {
+  max-width: 720px; margin: 0 auto; padding: 1.8rem 2rem 5rem;
+  font-size: 1.02rem; line-height: 1.75;
+}
+.book-body p { margin-bottom: 1.2rem; }
+.book-body h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.84rem; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--pum); margin-top: 2.4rem; margin-bottom: 0.7rem; font-weight: bold;
+}
+.book-body a { color: var(--gr); }
+.book-body a:hover { color: var(--pum); }
+
+/* ─── Links box ─────────────────────────────────── */
+.book-links {
+  background: rgba(74,31,106,0.04);
+  border-left: 3px solid var(--pu);
+  padding: 1rem 1.4rem; margin-top: 2rem;
+}
+.book-links ul { margin: 0; padding: 0; list-style: none; }
+.book-links li { padding: 0.25rem 0; font-size: 0.95rem; }
+.book-links li::before { content: '→ '; color: var(--pum); font-family: 'Courier New', monospace; }
+
+@media (max-width: 700px) {
+  .book-masthead { flex-direction: column; align-items: flex-start; gap: 1rem; padding: 2rem 1.4rem; }
+  .book-masthead-img { width: 4.5rem; height: 4.5rem; }
+  .book-back, .book-body { padding-left: 1.4rem; padding-right: 1.4rem; }
+}
+</style>
+
+<div class="book-masthead">
+  <img class="book-masthead-img" src="{{ '/assets/img/book.png' | relative_url }}" alt="">
+  <div class="book-masthead-text">
+    <div class="stamp">Book Club{% if page.date %} &middot; {{ page.date | date: "%B %Y" }}{% endif %}</div>
+    <h1>{{ page.title }}</h1>
+    <p class="book-author">{{ page.author }}{% if page.year %} &middot; {{ page.year }}{% endif %}</p>
+  </div>
+</div>
+
+<div class="book-back">
+  <a href="{{ '/books' | relative_url }}">← Book Club</a>
+</div>
+
+<div class="book-body">
+  {{ content }}
+</div>
