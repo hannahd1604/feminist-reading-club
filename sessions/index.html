@@ -92,6 +92,7 @@ body {
 </style>
 
 {% assign sessions_chron = site.posts | reverse %}
+{% assign sessions_desc = site.posts %}
 
 <div class="frc-masthead">
   <img class="frc-masthead-img" src="{{ '/assets/img/material.png' | relative_url }}" alt="">
@@ -104,10 +105,12 @@ body {
 
 <div class="frc-sessions">
   <div class="frc-sgrid">
-    {% for post in sessions_chron %}
+    {% for post in sessions_desc %}
+      {% assign snum = sessions_chron.size %}
+      {% for p in sessions_chron %}{% if p.url == post.url %}{% assign snum = forloop.index %}{% endif %}{% endfor %}
       <a class="frc-scard" href="{{ post.url | relative_url }}">
         <div class="frc-scard-num">
-          {% if forloop.index < 10 %}0{{ forloop.index }}{% else %}{{ forloop.index }}{% endif %}
+          {% if snum < 10 %}0{{ snum }}{% else %}{{ snum }}{% endif %}
           &middot; {{ post.date | date: "%b %Y" }}
         </div>
         <div class="frc-scard-title">{{ post.title }}</div>
