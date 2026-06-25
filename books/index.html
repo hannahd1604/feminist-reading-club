@@ -87,6 +87,11 @@ body {
   font-family: 'Courier New', Courier, monospace; font-size: 0.72rem;
   color: var(--pum); letter-spacing: 0.06em;
 }
+.frc-bcard-discussed {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.72rem;
+  color: var(--m); letter-spacing: 0.06em; margin-top: 0.5rem;
+  padding-top: 0.5rem; border-top: 1px solid var(--ru);
+}
 
 @media (max-width: 700px) {
   .frc-masthead { flex-direction: column; align-items: flex-start; gap: 1rem; padding: 2rem 1.4rem; }
@@ -114,6 +119,7 @@ body {
         <div class="frc-bcard-title">{{ book.title }}</div>
         <div class="frc-bcard-author">{{ book.author }}</div>
         {% if book.year %}<div class="frc-bcard-year">{{ book.year }}</div>{% endif %}
+        {% if book.date %}<div class="frc-bcard-discussed">discussed {{ book.date | date: "%b %Y" }}</div>{% endif %}
       </a>
     {% endfor %}
   </div>

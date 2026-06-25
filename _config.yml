@@ -24,7 +24,7 @@ collections:
 permalink: /sessions/:title/
 
 # Pagination — sessions index is the paginator base
-paginate: 14
+paginate: 15
 paginate_path: "/sessions/page:num/"
 
 # Global defaults
