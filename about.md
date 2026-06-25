@@ -4,15 +4,15 @@ title: About
 description: Who we are and how this works.
 ---
 
-The Feminist Reading Club is a monthly gathering for cosy, honest conversations about feminism and the world we live in — guided by papers, articles, films, and essays. We keep the preparation short and intentional. The conversation isn't.
+The Feminist Reading Club is a monthly gathering for cosy, honest conversations about feminism and the world we live in, guided by (scientific) papers, articles, podcasts, films, and essays. We keep the preparation short and intentional.
 
-Founded by two scientists based in Belgium, the club was built on a simple premise: that current feminist topics and pop-cultural references deserve the same rigour we bring to our day jobs — evidence-backed, source-cited, and genuinely open to being wrong.
+Founded by two scientists based in Belgium, the club was built on a simple premise: We approach current societal topics and pop-cultural references through a feminist lens with the same approach we handle in our jobs: source-cited, and genuinely open to being wrong and learning from and through the community.
 
-We approach feminism as a living, evolving project. That means taking intersectionality seriously: recognising that gender does not exist in isolation from race, class, sexuality, disability, and other axes of power. It means sitting with the tensions that fourth-wave feminism has brought into focus — the relationship between online activism and structural change, the afterlives of #MeToo, the question of who gets to speak and who gets heard. We don't have fixed answers. We come to read, to think, and to disagree well.
+We approach feminism as a living, evolving project. That means taking intersectionality seriously: recognising that gender does not exist in isolation from race, class, sexuality, disability, and other axes of power. It means sitting with the tensions that fourth-wave feminism has brought into focus of the relationship between online activism and structural change, the afterlives of #MeToo, and the question of who gets to speak and who gets heard. We don't have fixed answers. We come to read, to think, and to disagree well.
 
 **How it works**
 
-Each session focuses on one theme. We share material beforehand — usually a short video, an article, and occasionally a longer read — but none of it is obligatory. The idea is to give everyone a shared starting point, not to assign homework. Sessions are open to everyone, whatever your background or level of familiarity with feminist theory.
+Each session focuses on one theme. We share material beforehand — usually a short video, an article, and occasionally a longer read, but none of it is obligatory. The idea is to give everyone a shared starting point, not to assign homework. Sessions are open to everyone, whatever your background or level of familiarity with feminist theory.
 
 The Book Club is a separate track: we pick one book every few months and discuss it in a smaller, more focused setting.
 
