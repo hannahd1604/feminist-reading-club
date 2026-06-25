@@ -78,6 +78,10 @@ body {
 .frc-bcard:nth-child(4n+3)::before { background: var(--pum); }
 .frc-bcard:nth-child(4n+0)::before { background: var(--grm); }
 .frc-bcard:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(74,31,106,0.13); }
+.frc-bcard-num {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.78rem;
+  color: var(--m); letter-spacing: 0.1em; margin-bottom: 0.6rem;
+}
 .frc-bcard-title {
   font-family: 'Courier New', Courier, monospace; font-size: 0.97rem;
   font-weight: bold; color: var(--t); margin-bottom: 0.45rem; line-height: 1.25;
@@ -86,11 +90,6 @@ body {
 .frc-bcard-year {
   font-family: 'Courier New', Courier, monospace; font-size: 0.72rem;
   color: var(--pum); letter-spacing: 0.06em;
-}
-.frc-bcard-discussed {
-  font-family: 'Courier New', Courier, monospace; font-size: 0.72rem;
-  color: var(--m); letter-spacing: 0.06em; margin-top: 0.5rem;
-  padding-top: 0.5rem; border-top: 1px solid var(--ru);
 }
 
 @media (max-width: 700px) {
@@ -101,7 +100,8 @@ body {
 }
 </style>
 
-{% assign books_sorted = site.books | sort: 'date' | reverse %}
+{% assign books_chron = site.books | sort: 'date' %}
+{% assign books_sorted = books_chron | reverse %}
 
 <div class="frc-masthead">
   <img class="frc-masthead-img" src="{{ '/assets/img/book.png' | relative_url }}" alt="">
@@ -115,11 +115,16 @@ body {
 <div class="frc-books">
   <div class="frc-bgrid">
     {% for book in books_sorted %}
+      {% assign bnum = books_chron.size %}
+      {% for b in books_chron %}{% if b.url == book.url %}{% assign bnum = forloop.index %}{% endif %}{% endfor %}
       <a class="frc-bcard" href="{{ book.url | relative_url }}">
+        <div class="frc-bcard-num">
+          {% if bnum < 10 %}0{{ bnum }}{% else %}{{ bnum }}{% endif %}
+          {% if book.date %}&middot; {{ book.date | date: "%b %Y" }}{% endif %}
+        </div>
         <div class="frc-bcard-title">{{ book.title }}</div>
         <div class="frc-bcard-author">{{ book.author }}</div>
         {% if book.year %}<div class="frc-bcard-year">{{ book.year }}</div>{% endif %}
-        {% if book.date %}<div class="frc-bcard-discussed">discussed {{ book.date | date: "%b %Y" }}</div>{% endif %}
       </a>
     {% endfor %}
   </div>
