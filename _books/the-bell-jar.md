@@ -3,7 +3,7 @@ layout: book
 title: "The Bell Jar"
 author: "Sylvia Plath"
 year: 1963
-date: 2025-08-03
+date: 2025-07-01
 ---
 
 Esther Greenwood's breakdown under the weight of 1950s expectations opened up questions we hadn't planned on: what the history of psychiatric treatment tells us about which kinds of distress got taken seriously, whose suffering got medicated, and whose was simply disciplined out of sight.

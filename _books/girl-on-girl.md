@@ -3,7 +3,7 @@ layout: book
 title: "Girl on Girl"
 author: "Sophie Gilbert"
 year: 2024
-date: 2025-05-25
+date: 2025-10-01
 ---
 
 Sophie Gilbert's essay collection asks how pop culture has trained women to police each other — through reality TV, rom-coms, celebrity media, and the girlboss myth — rather than the systems that produce those cultures. We discussed whether progress in representation is cosmetic, and what "internalized misogyny" actually means as a concept beyond individual bad behaviour.

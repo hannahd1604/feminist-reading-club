@@ -3,7 +3,7 @@ layout: book
 title: "Metaphysical Animals"
 author: "Clare Mac Cumhaill & Rachael Wiseman"
 year: 2022
-date: 2024-01-01
+date: 2026-06-01
 ---
 
 Clare Mac Cumhaill and Rachael Wiseman's joint biography follows Elizabeth Anscombe, Iris Murdoch, Mary Midgley, and Philippa Foot through Oxford in the 1940s — four women who entered philosophy when most of the men had left for the war, and who collectively remade the discipline. The book traces how their friendship shaped their thinking, and how their thinking shaped a generation.
