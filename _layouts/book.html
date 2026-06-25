@@ -86,10 +86,38 @@ body {
 .book-links li { padding: 0.25rem 0; font-size: 0.95rem; }
 .book-links li::before { content: '→ '; color: var(--pum); font-family: 'Courier New', monospace; }
 
+/* ─── Comments ──────────────────────────────────── */
+.book-comments { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--ru); }
+.book-comments-label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.82rem; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--pum); font-weight: bold; margin-bottom: 0.5rem;
+}
+.book-comments-note { font-size: 0.82rem; color: var(--m); margin-bottom: 1.2rem; font-style: italic; }
+.cform { display: flex; flex-direction: column; gap: 0.85rem; }
+.cform input, .cform textarea {
+  font-family: 'Calibri', system-ui, sans-serif; font-size: 0.88rem;
+  border: 1px solid var(--ru); border-radius: 2px;
+  padding: 0.65rem 0.9rem; background: #fff; color: var(--t); width: 100%;
+  transition: border-color .12s;
+}
+.cform input:focus, .cform textarea:focus { outline: none; border-color: var(--pum); }
+.cform textarea { resize: vertical; min-height: 110px; line-height: 1.55; }
+.cform button {
+  align-self: flex-start;
+  font-family: 'Courier New', Courier, monospace; font-size: 0.72rem;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  background: var(--pu); color: #fff; border: none;
+  padding: 0.7rem 1.4rem; cursor: pointer; border-radius: 2px;
+  transition: background .12s; min-height: 44px;
+}
+.cform button:hover { background: var(--pum); }
+
 @media (max-width: 700px) {
   .book-masthead { flex-direction: column; align-items: flex-start; gap: 1rem; padding: 2rem 1.4rem; }
   .book-masthead-img { width: 4.5rem; height: 4.5rem; }
   .book-back, .book-body { padding-left: 1.4rem; padding-right: 1.4rem; }
+  .cform button { width: 100%; text-align: center; }
 }
 </style>
 
@@ -108,4 +136,16 @@ body {
 
 <div class="book-body">
   {{ content }}
+
+  <div class="book-comments">
+    <div class="book-comments-label">Leave a comment</div>
+    <p class="book-comments-note">Comments are reviewed by the organisers before appearing here.</p>
+    <form class="cform" action="https://submit.formspark.io/f/2x0lSx5iZ" method="POST">
+      <input type="text" name="name" placeholder="Name (optional)">
+      <input type="email" name="email" placeholder="Email (not shown publicly)" required>
+      <input type="hidden" name="book" value="{{ page.title }}">
+      <textarea name="message" placeholder="A thought, a recommendation, something the session brought up…"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
 </div>
