@@ -260,12 +260,28 @@ body {
 /* ─── Responsive ────────────────────────────────── */
 @media (max-width: 760px) {
   .frc-masthead { padding: 2rem 1.4rem 1.8rem; }
+  .frc-masthead h1 { font-size: 1.8rem; }
+  .session-jumps a { font-size: 0.78rem; padding: 0.4rem 0.75rem; min-height: 44px; display: inline-flex; align-items: center; }
+
   .frc-page-body {
     grid-template-columns: 1fr;
     padding: 0 1.4rem 3rem;
   }
-  .frc-main { padding: 2rem 0; border-right: none; border-bottom: 1px solid var(--ru); }
-  .frc-sidebar { padding: 1.5rem 0 0; }
+
+  /* back link surfaces above the content */
+  .frc-sidebar { order: -1; padding: 0.8rem 0 0; }
+  .sidebar-back { font-size: 0.82rem; min-height: 44px; display: inline-flex; align-items: center; }
+  /* hide the session list and book club from sidebar on mobile */
+  .sidebar-label, .slink, .sidebar-divider { display: none; }
+
+  .frc-main { padding: 1.6rem 0 1rem; border-right: none; }
+
+  /* section head icons smaller on mobile */
+  .section-head[id="materials"]::before,
+  .section-head[id="structure"]::before { width: 2.5rem; height: 2.5rem; }
+
+  /* comment form full-width inputs */
+  .cform button { width: 100%; text-align: center; min-height: 44px; }
 }
 </style>
 

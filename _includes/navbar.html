@@ -14,6 +14,7 @@
 .frc-nav-brand .cursor { animation: frc-blink 1.1s step-end infinite; }
 @keyframes frc-blink { 50% { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .frc-nav-brand .cursor { animation: none; } }
+
 .frc-nav-links { display: flex; list-style: none; margin: 0; padding: 0; }
 .frc-nav-links a {
   display: flex; align-items: center; padding: 0 1.3rem;
@@ -24,19 +25,75 @@
   transition: background .12s, color .12s;
 }
 .frc-nav-links a:hover { background: rgba(74,31,106,0.05); color: #4a1f6a; }
+
+/* hamburger — hidden on desktop */
+.frc-nav-toggle {
+  display: none;
+  flex-direction: column; justify-content: center; gap: 5px;
+  width: 44px; height: 44px; padding: 11px;
+  background: none; border: none; cursor: pointer;
+  flex-shrink: 0; align-self: center;
+}
+.frc-nav-toggle span {
+  display: block; width: 22px; height: 2px;
+  background: #4a1f6a; border-radius: 1px;
+  transition: transform .2s, opacity .2s;
+}
+
 @media (max-width: 700px) {
-  .frc-nav { padding: 0.9rem 1.4rem; flex-wrap: wrap; gap: 0.5rem; }
-  .frc-nav-links { flex-wrap: wrap; }
-  .frc-nav-links a { border-left: none; padding: 0.4rem 0.7rem; font-size: 0.75rem; }
+  .frc-nav { padding: 0 1.4rem; flex-wrap: wrap; align-items: center; }
+  .frc-nav-brand { padding: 0.75rem 0; }
+
+  .frc-nav-toggle { display: flex; }
+
+  .frc-nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid rgba(74,31,106,0.1);
+    padding: 0.3rem 0 0.6rem;
+    margin: 0;
+  }
+  .frc-nav-links.open { display: flex; }
+  .frc-nav-links li { border-top: 1px solid rgba(74,31,106,0.06); }
+  .frc-nav-links a {
+    border-left: none;
+    padding: 0.9rem 0.4rem;
+    font-size: 0.82rem;
+    min-height: 44px;
+  }
 }
 </style>
 
 <nav class="frc-nav">
   <a class="frc-nav-brand" href="{{ '/' | relative_url }}">FRC<span class="cursor">_</span></a>
-  <ul class="frc-nav-links">
+  <button class="frc-nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="frc-nav-links">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="frc-nav-links" id="frc-nav-links">
     <li><a href="{{ '/about' | relative_url }}">About</a></li>
     <li><a href="{{ '/sessions' | relative_url }}">Sessions</a></li>
     <li><a href="{{ '/books' | relative_url }}">Book Club</a></li>
     <li><a href="{{ '/contact' | relative_url }}">Suggestions</a></li>
   </ul>
 </nav>
+
+<script>
+(function () {
+  var btn = document.querySelector('.frc-nav-toggle');
+  var menu = document.getElementById('frc-nav-links');
+  if (!btn || !menu) return;
+  btn.addEventListener('click', function () {
+    var open = menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', String(open));
+    btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  });
+  menu.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      menu.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+      btn.setAttribute('aria-label', 'Open menu');
+    });
+  });
+})();
+</script>
