@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-frc
 title: Suggestions
 description: Suggest a topic, a book, or a reading.
 ---

@@ -46,7 +46,7 @@ body {
   <div class="sub">Feminist Reading Club &middot; Last updated June 2026</div>
 
   <h2>Who we are</h2>
-  <p>The Feminist Reading Club (FRC) is a non-commercial community group based in Brussels. This website is maintained by the group's organisers. You can reach us at <a href="mailto:hannah.dickmaenken@vib.be">hannah.dickmaenken@vib.be</a>.</p>
+  <p>The Feminist Reading Club (FRC) is a non-commercial community group based in Belgium. This website is maintained by the group's organisers. You can reach us via the <a href="/contact">Suggestions</a> form.</p>
 
   <h2>What data we collect and why</h2>
   <p>We collect personal data only when you voluntarily submit a form on this site. Two forms are in use:</p>
@@ -64,7 +64,7 @@ body {
   <p>We keep form submissions for as long as they are useful for moderating comments or following up on suggestions — typically no longer than one year. You can ask us to delete your submission at any time.</p>
 
   <h2>Your rights</h2>
-  <p>Under the GDPR you have the right to access, correct, or erase personal data we hold about you, and to object to or restrict its processing. To exercise any of these rights, email us at <a href="mailto:hannah.dickmaenken@vib.be">hannah.dickmaenken@vib.be</a>. We will respond within 30 days.</p>
+  <p>Under the GDPR you have the right to access, correct, or erase personal data we hold about you, and to object to or restrict its processing. To exercise any of these rights, contact us via the <a href="/contact">Suggestions</a> form. We will respond within 30 days.</p>
 
   <h2>Hosting</h2>
   <p>This site is hosted on GitHub Pages. GitHub may process limited technical data (such as IP addresses for server logs) in connection with serving the site. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub's privacy statement</a> for details.</p>

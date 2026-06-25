@@ -1,12 +1,14 @@
 ---
-layout: page
+layout: page-frc
 title: About
 description: Who we are and how this works.
 ---
 
-We are passionate about exploring feminism and societal issues through a scientific lens. The Feminist Reading Club is a monthly gathering for cosy, insightful discussions on intersectional feminist topics — guided by papers, articles, movies, and essays. We keep the preparation short and intentional. The conversation isn't.
+The Feminist Reading Club is a monthly gathering for cosy, honest conversations about feminism and the world we live in — guided by papers, articles, films, and essays. We keep the preparation short and intentional. The conversation isn't.
 
-Based in Belgium.
+Founded by two scientists based in Belgium, the club was built on a simple premise: that current feminist topics and pop-cultural references deserve the same rigour we bring to our day jobs — evidence-backed, source-cited, and genuinely open to being wrong.
+
+We approach feminism as a living, evolving project. That means taking intersectionality seriously: recognising that gender does not exist in isolation from race, class, sexuality, disability, and other axes of power. It means sitting with the tensions that fourth-wave feminism has brought into focus — the relationship between online activism and structural change, the afterlives of #MeToo, the question of who gets to speak and who gets heard. We don't have fixed answers. We come to read, to think, and to disagree well.
 
 **How it works**
 

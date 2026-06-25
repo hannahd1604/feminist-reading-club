@@ -54,7 +54,7 @@ body {
   <p>We make a reasonable effort to share accurate and well-sourced material, but we are not professional researchers, journalists, or legal or medical advisers. We cannot guarantee the accuracy, completeness, or current relevance of anything published here. We are not liable for any errors, omissions, or misinterpretations, including those in materials we link to or reference.</p>
 
   <h2>References to individuals</h2>
-  <p>Where we mention public figures, researchers, authors, or other individuals, we do so in good faith for discussion purposes. We do not intend to misrepresent anyone's views. If you believe something published here is inaccurate or unfair, please contact us at <a href="mailto:hannah.dickmaenken@vib.be">hannah.dickmaenken@vib.be</a> and we will review it.</p>
+  <p>Where we mention public figures, researchers, authors, or other individuals, we do so in good faith for discussion purposes. We do not intend to misrepresent anyone's views. If you believe something published here is inaccurate or unfair, please contact us via the <a href="/contact">Suggestions</a> form and we will review it.</p>
 
   <h2>Comments</h2>
   <p>Comments submitted through this site are moderated before publication. We do not tolerate hate speech, discrimination, harassment, or content that targets individuals or groups on the basis of gender, race, sexuality, religion, disability, or any other characteristic. Such comments will not be published. We reserve the right to decline any submission without explanation.</p>

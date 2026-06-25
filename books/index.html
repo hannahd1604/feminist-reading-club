@@ -1,25 +1,120 @@
 ---
-layout: page
+layout: default
 title: Book Club
 description: Books we have read together.
 ---
 
-<div class="row gx-4 gx-lg-5 justify-content-center">
-  <div class="col-md-10 col-lg-8 col-xl-7">
+<style>
+:root {
+  --g:   #fdf5f7;
+  --s:   #f5edf5;
+  --t:   #2a1f0e;
+  --m:   #5a4e40;
+  --ru:  #e0d4e8;
+  --pu:  #4a1f6a;
+  --pum: #7040a0;
+  --gr:  #1e3d22;
+  --grm: #2c5a32;
+}
+body {
+  background: var(--g);
+  background-image: repeating-linear-gradient(
+    transparent 0px, transparent 30px,
+    rgba(74,31,106,0.04) 30px, rgba(74,31,106,0.04) 31px
+  );
+  color: var(--t);
+  font-family: 'Calibri', system-ui, sans-serif;
+}
 
-    {% assign sorted_books = site.books | sort: 'date' | reverse %}
-    {% for book in sorted_books %}
-    <div class="post-preview">
-      <a href="{{ book.url | relative_url }}">
-        <h2 class="post-title">{{ book.title }}</h2>
-        <h3 class="post-subtitle">{{ book.author }}{% if book.year %} &middot; {{ book.year }}{% endif %}</h3>
+/* ─── Masthead ──────────────────────────────────── */
+.frc-masthead {
+  background: var(--pu);
+  background-image: repeating-linear-gradient(
+    transparent 0px, transparent 30px,
+    rgba(255,255,255,0.04) 30px, rgba(255,255,255,0.04) 31px
+  );
+  padding: 2.8rem 3rem 2.4rem;
+  border-bottom: 3px solid var(--gr);
+  display: flex; align-items: center; gap: 2rem;
+}
+.frc-masthead-img { width: 7rem; height: 7rem; flex-shrink: 0; }
+.frc-masthead-text .stamp {
+  display: inline-block;
+  border: 1.5px solid rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.7);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.82rem; letter-spacing: 0.2em; text-transform: uppercase;
+  padding: 0.25rem 0.75rem; margin-bottom: 1.2rem; transform: rotate(-1deg);
+}
+.frc-masthead-text h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: clamp(2rem, 4.5vw, 3rem); font-weight: bold;
+  color: #fff; line-height: 1.1; margin-bottom: 0.6rem;
+}
+.frc-masthead-text .tagline {
+  font-size: 1rem; color: rgba(255,255,255,0.8);
+  max-width: 580px; line-height: 1.55; margin: 0;
+}
+
+/* ─── Books grid ────────────────────────────────── */
+.frc-books { max-width: 1100px; margin: 0 auto; padding: 2.5rem 3rem 4rem; }
+.frc-bgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.2rem;
+}
+.frc-bcard {
+  background: #fff; border: 1px solid var(--ru); border-radius: 2px;
+  padding: 1.4rem 1.4rem 1.6rem; position: relative; display: block;
+  text-decoration: none;
+  box-shadow: 0 2px 10px rgba(74,31,106,0.07);
+  transition: transform .15s, box-shadow .15s;
+}
+.frc-bcard::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; border-radius: 2px 2px 0 0;
+}
+.frc-bcard:nth-child(4n+1)::before { background: var(--pu); }
+.frc-bcard:nth-child(4n+2)::before { background: var(--gr); }
+.frc-bcard:nth-child(4n+3)::before { background: var(--pum); }
+.frc-bcard:nth-child(4n+0)::before { background: var(--grm); }
+.frc-bcard:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(74,31,106,0.13); }
+.frc-bcard-title {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.97rem;
+  font-weight: bold; color: var(--t); margin-bottom: 0.45rem; line-height: 1.25;
+}
+.frc-bcard-author { font-size: 0.82rem; color: var(--m); font-style: italic; margin-bottom: 0.3rem; }
+.frc-bcard-year {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.72rem;
+  color: var(--pum); letter-spacing: 0.06em;
+}
+
+@media (max-width: 700px) {
+  .frc-masthead { flex-direction: column; align-items: flex-start; gap: 1rem; padding: 2rem 1.4rem; }
+  .frc-masthead-img { width: 5rem; height: 5rem; }
+  .frc-books { padding: 2rem 1.4rem 3rem; }
+  .frc-bgrid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+}
+</style>
+
+{% assign books_sorted = site.books | sort: 'date' | reverse %}
+
+<div class="frc-masthead">
+  <img class="frc-masthead-img" src="{{ '/assets/img/book.png' | relative_url }}" alt="">
+  <div class="frc-masthead-text">
+    <div class="stamp">{{ books_sorted | size }} books</div>
+    <h1>Book Club</h1>
+    <p class="tagline">Books we have read together.</p>
+  </div>
+</div>
+
+<div class="frc-books">
+  <div class="frc-bgrid">
+    {% for book in books_sorted %}
+      <a class="frc-bcard" href="{{ book.url | relative_url }}">
+        <div class="frc-bcard-title">{{ book.title }}</div>
+        <div class="frc-bcard-author">{{ book.author }}</div>
+        {% if book.year %}<div class="frc-bcard-year">{{ book.year }}</div>{% endif %}
       </a>
-      {% if book.date %}
-      <p class="post-meta">{{ book.date | date: "%B %Y" }}</p>
-      {% endif %}
-    </div>
-    <hr class="my-4" />
     {% endfor %}
-
   </div>
 </div>

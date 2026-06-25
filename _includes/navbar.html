@@ -1,26 +1,42 @@
-<nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-    <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="{{ '/' | relative_url }}">FRC</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">
-            Menu <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ '/about' | relative_url }}">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ '/sessions' | relative_url }}">Sessions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ '/books' | relative_url }}">Book Club</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ '/contact' | relative_url }}">Suggestions</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+<style>
+.frc-nav {
+  display: flex; align-items: stretch;
+  background: #fdf5f7;
+  border-bottom: 1.5px solid rgba(74,31,106,0.15);
+  padding: 0 3rem;
+}
+.frc-nav-brand {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.25rem; font-weight: bold; letter-spacing: 0.15em;
+  padding: 0.9rem 0; margin-right: auto;
+  color: #4a1f6a; text-decoration: none;
+}
+.frc-nav-brand .cursor { animation: frc-blink 1.1s step-end infinite; }
+@keyframes frc-blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .frc-nav-brand .cursor { animation: none; } }
+.frc-nav-links { display: flex; list-style: none; margin: 0; padding: 0; }
+.frc-nav-links a {
+  display: flex; align-items: center; padding: 0 1.3rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.82rem; font-weight: bold; letter-spacing: 0.06em; text-transform: uppercase;
+  color: #2a1f0e; text-decoration: none;
+  border-left: 1px solid #e0d4e8;
+  transition: background .12s, color .12s;
+}
+.frc-nav-links a:hover { background: rgba(74,31,106,0.05); color: #4a1f6a; }
+@media (max-width: 700px) {
+  .frc-nav { padding: 0.9rem 1.4rem; flex-wrap: wrap; gap: 0.5rem; }
+  .frc-nav-links { flex-wrap: wrap; }
+  .frc-nav-links a { border-left: none; padding: 0.4rem 0.7rem; font-size: 0.75rem; }
+}
+</style>
+
+<nav class="frc-nav">
+  <a class="frc-nav-brand" href="{{ '/' | relative_url }}">FRC<span class="cursor">_</span></a>
+  <ul class="frc-nav-links">
+    <li><a href="{{ '/about' | relative_url }}">About</a></li>
+    <li><a href="{{ '/sessions' | relative_url }}">Sessions</a></li>
+    <li><a href="{{ '/books' | relative_url }}">Book Club</a></li>
+    <li><a href="{{ '/contact' | relative_url }}">Suggestions</a></li>
+  </ul>
 </nav>

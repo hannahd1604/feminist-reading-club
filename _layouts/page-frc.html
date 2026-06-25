@@ -1,0 +1,107 @@
+---
+layout: default
+---
+
+<style>
+:root {
+  --g:   #fdf5f7;
+  --t:   #2a1f0e;
+  --m:   #5a4e40;
+  --ru:  #e0d4e8;
+  --pu:  #4a1f6a;
+  --pum: #7040a0;
+  --gr:  #1e3d22;
+}
+body {
+  background: var(--g);
+  background-image: repeating-linear-gradient(
+    transparent 0px, transparent 30px,
+    rgba(74,31,106,0.04) 30px, rgba(74,31,106,0.04) 31px
+  );
+  color: var(--t);
+  font-family: 'Calibri', system-ui, sans-serif;
+}
+
+/* ─── Masthead ──────────────────────────────────── */
+.frc-masthead {
+  background: var(--pu);
+  background-image: repeating-linear-gradient(
+    transparent 0px, transparent 30px,
+    rgba(255,255,255,0.04) 30px, rgba(255,255,255,0.04) 31px
+  );
+  padding: 2.8rem 3rem 2.4rem;
+  border-bottom: 3px solid var(--gr);
+}
+.frc-masthead .stamp {
+  display: inline-block;
+  border: 1.5px solid rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.7);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.82rem; letter-spacing: 0.2em; text-transform: uppercase;
+  padding: 0.25rem 0.75rem; margin-bottom: 1.2rem; transform: rotate(-1deg);
+  display: inline-block;
+}
+.frc-masthead h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: clamp(2rem, 4.5vw, 3rem); font-weight: bold;
+  color: #fff; line-height: 1.1; margin-bottom: 0.6rem;
+}
+.frc-masthead .tagline {
+  font-size: 1rem; color: rgba(255,255,255,0.8);
+  max-width: 580px; line-height: 1.55; margin: 0;
+}
+
+/* ─── Body ──────────────────────────────────────── */
+.frc-page-content {
+  max-width: 720px;
+  margin: 3rem auto;
+  padding: 0 2rem 4rem;
+  font-size: 1rem;
+  line-height: 1.72;
+}
+.frc-page-content h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--pum); font-weight: bold;
+  margin-top: 2rem; margin-bottom: 0.6rem;
+}
+.frc-page-content a { color: var(--gr); }
+.frc-page-content strong { color: var(--t); }
+
+/* ─── Form styling (for suggestions) ───────────── */
+.frc-page-content .form-label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--pum); display: block; margin-bottom: 0.4rem;
+}
+.frc-page-content .form-control {
+  font-family: 'Calibri', system-ui, sans-serif; font-size: 0.9rem;
+  border: 1px solid var(--ru); border-radius: 2px;
+  padding: 0.65rem 0.9rem; background: #fff; color: var(--t); width: 100%;
+  margin-bottom: 1.1rem; transition: border-color .12s;
+}
+.frc-page-content .form-control:focus { outline: none; border-color: var(--pum); }
+.frc-page-content .btn-primary {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.78rem;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  background: var(--pu); color: #fff; border: none;
+  padding: 0.7rem 1.4rem; cursor: pointer; border-radius: 2px;
+  transition: background .12s;
+}
+.frc-page-content .btn-primary:hover { background: var(--pum); }
+
+@media (max-width: 700px) {
+  .frc-masthead { padding: 2rem 1.4rem 1.8rem; }
+  .frc-page-content { padding: 0 1.4rem 3rem; }
+}
+</style>
+
+<div class="frc-masthead">
+  <div class="stamp">{{ page.title }}</div>
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}<p class="tagline">{{ page.description }}</p>{% endif %}
+</div>
+
+<div class="frc-page-content">
+  {{ content }}
+</div>
