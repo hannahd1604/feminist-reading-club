@@ -43,19 +43,19 @@
   url: "https://youtu.be/mlcwqm24t7o"
 
 - type: spotify
-  title: "ADD TITLE — Spotify episode"
-  creator: "ADD PODCAST NAME"
+  title: "Clavicular Is a Symptom, Not The Cause"
+  creator: "A Bit Fruity with Matt Bernstein"
   url: "https://open.spotify.com/episode/4GcjdII9Jxh8vkhU0XgOIY"
   note: "One of the best episodes so far — super interesting societal analysis"
 
 - type: spotify
-  title: "ADD TITLE — Spotify episode"
-  creator: "ADD PODCAST NAME"
+  title: "My AI Loves Me Better Than Anyone Ever Could"
+  creator: "Where Should We Begin? with Esther Perel"
   url: "https://open.spotify.com/episode/4vfGvyl70sMxRoo0RyALUR"
 
 - type: spotify
-  title: "ADD TITLE — Spotify episode"
-  creator: "ADD PODCAST NAME"
+  title: "Can AI Save Your Relationship? I Asked the Experts — And a Real Couple"
+  creator: "Future of Sex"
   url: "https://open.spotify.com/episode/2GmjHKpvQomkFWd3hPzhqf"
 
 - type: reddit
