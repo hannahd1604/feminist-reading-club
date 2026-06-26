@@ -5,7 +5,7 @@ subtitle: "Why is what women make called a hobby?"
 date: 2024-12-15
 ---
 
-This session examined the persistent devaluation of crafts — traditionally associated with women's domestic labour — relative to fine art, and asked what that hierarchy reveals about whose creativity gets taken seriously. We traced the art/craft distinction to the 15th century, explored fiber arts as a form of feminist protest (craftivism), and asked why the same skill is deemed more valuable when practised by men in professional settings. We also discussed why so few women appear in national gallery collections, and what we can do about it.
+This session examined the persistent devaluation of crafts, traditionally associated with women's domestic labour, relative to fine art, and asked what that hierarchy reveals about whose creativity gets taken seriously. We traced the art/craft distinction to the 15th century, explored fiber arts as a form of feminist protest (craftivism), and asked why the same skill is deemed more valuable when practised by men in professional settings. We also discussed why so few women appear in national gallery collections, and what we can do about it.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
@@ -29,9 +29,9 @@ This session examined the persistent devaluation of crafts — traditionally ass
 
 <div class="section-head" id="structure">Session structure</div>
 <ol class="structure-list">
-  <li>What are your own creative activities — and did you or others consider them art?
+  <li>What are your own creative activities, and did you or others consider them art?
     <ul>
-      <li>The story of the grandmother surrounded by her own art who never called herself an artist</li>
+      <li>The story of the grandmother surrounded by her own art, who never called herself an artist</li>
       <li>What would be your personal distinction between art and craft?</li>
     </ul>
   </li>
@@ -39,7 +39,7 @@ This session examined the persistent devaluation of crafts — traditionally ass
     <ul>
       <li>Craft: practical, recipe-based, and traditionally seen as inferior</li>
       <li>Art: conceptual, not practical — and much more accessible to those with privilege, both to make and to consume</li>
-      <li>Art as a westernised concept: when something isn't "innovative" (e.g. traditional Chinese ceramics), it tends to be called a craft</li>
+      <li>Art as a westernised concept: when something isn't "innovative" (e.g., traditional Chinese ceramics), it tends to be called a craft</li>
       <li>The distinction appeared in the 15th century and is now beginning to break down — does it matter what we call it, or is the real issue the hierarchy itself?</li>
     </ul>
   </li>
@@ -64,9 +64,9 @@ This session examined the persistent devaluation of crafts — traditionally ass
       <li>Today, only 2% of annual art market spending goes to female artists — and mostly just five names</li>
     </ul>
   </li>
-  <li>What can we do?
+  <li>What can we do?/our conclusion
     <ul>
-      <li>Call our own work "art" or "creative" — not just a hobby</li>
+      <li>Call our own work "art" or "creative" - not just a hobby</li>
       <li>Support female artists: talk about them, share them, challenge museum collections</li>
       <li>Knit in public</li>
     </ul>
