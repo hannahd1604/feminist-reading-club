@@ -99,6 +99,44 @@ body {
   background: var(--s); padding: 2rem 3rem 2.5rem;
   border-top: 1px solid var(--ru);
 }
+
+/* ─── Shelf ──────────────────────────────────────── */
+.frc-shelf-home {
+  padding: 2rem 3rem 2.5rem;
+  border-top: 1px solid var(--ru);
+}
+.frc-shelf-mini {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.frc-shcard-mini {
+  background: #fff; border: 1px solid var(--ru); border-radius: 2px;
+  padding: 1rem 1.1rem 1.2rem; position: relative;
+  box-shadow: 0 2px 8px rgba(74,31,106,0.06);
+  text-decoration: none; display: block;
+  transition: transform .15s, box-shadow .15s;
+}
+.frc-shcard-mini::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0;
+  height: 3px; border-radius: 2px 2px 0 0;
+}
+.frc-shcard-mini[data-type="article"]::before    { background: var(--pu); }
+.frc-shcard-mini[data-type="youtube"]::before    { background: #8b2020; }
+.frc-shcard-mini[data-type="spotify"]::before    { background: var(--gr); }
+.frc-shcard-mini[data-type="book"]::before       { background: var(--pum); }
+.frc-shcard-mini[data-type="reddit"]::before     { background: var(--grm); }
+.frc-shcard-mini[data-type="newsletter"]::before { background: var(--pu); }
+.frc-shcard-mini:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(74,31,106,0.11); }
+.frc-shcard-mini-type {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--m); margin-bottom: 0.4rem;
+}
+.frc-shcard-mini-title {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.85rem;
+  font-weight: bold; color: var(--t); line-height: 1.25;
+}
 .frc-bgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.1rem; }
 .frc-bcard {
   background: #fff; border: 1px solid var(--ru); border-radius: 2px;
@@ -127,9 +165,10 @@ body {
   .frc-hero-img img { max-width: 220px; }
   .frc-eyebrow { font-size: 0.78rem; }
   .frc-eyebrow img { width: 3rem; height: 3rem; }
-  .frc-sessions, .frc-books { padding: 1.5rem 1.4rem 2rem; }
+  .frc-sessions, .frc-books, .frc-shelf-home { padding: 1.5rem 1.4rem 2rem; }
   .frc-scard-num { font-size: 0.78rem; }
   .frc-view-all a { min-height: 44px; display: inline-flex; align-items: center; }
+  .frc-shelf-mini { grid-template-columns: 1fr 1fr; }
 }
 </style>
 
@@ -181,5 +220,25 @@ body {
     {% endfor %}
   </div>
   <div class="frc-view-all"><a href="{{ '/books' | relative_url }}">View all books &rarr;</a></div>
+</div>
+{% endif %}
+
+{% assign shelf = site.data.shelf %}
+{% if shelf.size > 0 %}
+<div class="frc-shelf-home">
+  <div class="frc-eyebrow"><img src="{{ '/assets/img/shelf.png' | relative_url }}" alt="" style="width:4rem;height:4rem;">Shelf</div>
+  <div class="frc-shelf-mini">
+    {% for item in shelf limit: 4 %}
+      {% if item.url %}
+        <a class="frc-shcard-mini" data-type="{{ item.type }}" href="{{ item.url }}" target="_blank" rel="noopener">
+      {% else %}
+        <div class="frc-shcard-mini" data-type="{{ item.type }}">
+      {% endif %}
+        <div class="frc-shcard-mini-type">{{ item.type }}</div>
+        <div class="frc-shcard-mini-title">{{ item.title }}</div>
+      {% if item.url %}</a>{% else %}</div>{% endif %}
+    {% endfor %}
+  </div>
+  <div class="frc-view-all"><a href="{{ '/shelf' | relative_url }}">View all {{ shelf.size }} items &rarr;</a></div>
 </div>
 {% endif %}

@@ -1,0 +1,98 @@
+# Shelf — community recommendations
+# Types: article, youtube, spotify, book, reddit, newsletter
+# For books: leave url blank (we don't link to Amazon/Goodreads)
+# To add an item: copy a block, fill in fields, paste at the top of the list
+
+- type: article
+  title: "Almost a third of Gen Z men agree a wife should obey her husband"
+  creator: "King's College London"
+  url: "https://www.kcl.ac.uk/news/almost-a-third-of-gen-z-men-agree-a-wife-should-obey-her-husband"
+
+- type: article
+  title: "Gen Z men more likely than baby boomers to agree wives should obey husbands"
+  creator: "The Guardian"
+  url: "https://www.theguardian.com/world/2026/mar/05/gen-z-men-baby-boomers-wives-should-obey-husbands"
+
+- type: article
+  title: "I watched misogyny consume my daughter online"
+  creator: "The Guardian"
+  url: "https://www.theguardian.com/commentisfree/2026/feb/23/15-year-old-girl-misogyny-social-media-online-abuse"
+
+- type: article
+  title: "The Anti-Cosmetic Surgery Essay Every Woman Should Read"
+  url: "https://share.google/OLslbpRFi7RzguObD"
+
+- type: article
+  title: "Bluestockings and crammers: one hundred years of female students"
+  creator: "KU Leuven"
+  url: "https://stories.kuleuven.be/en/stories/bluestockings-and-crammers-hundred-years-of-female-students"
+
+- type: article
+  title: "ADD TITLE — Nature article"
+  creator: "Nature"
+  url: "https://www.nature.com/articles/d41586-026-00526-8"
+
+- type: youtube
+  title: "JANE AUSTEN'S PERIOD DRAMA"
+  creator: "2026 Oscar®-Nominated Short Film"
+  url: "https://youtu.be/dxpjzOLVRR0"
+
+- type: youtube
+  title: "to be like other girls"
+  creator: "georgie jones"
+  url: "https://youtu.be/mlcwqm24t7o"
+
+- type: spotify
+  title: "ADD TITLE — Spotify episode"
+  creator: "ADD PODCAST NAME"
+  url: "https://open.spotify.com/episode/4GcjdII9Jxh8vkhU0XgOIY"
+  note: "One of the best episodes so far — super interesting societal analysis"
+
+- type: spotify
+  title: "ADD TITLE — Spotify episode"
+  creator: "ADD PODCAST NAME"
+  url: "https://open.spotify.com/episode/4vfGvyl70sMxRoo0RyALUR"
+
+- type: spotify
+  title: "ADD TITLE — Spotify episode"
+  creator: "ADD PODCAST NAME"
+  url: "https://open.spotify.com/episode/2GmjHKpvQomkFWd3hPzhqf"
+
+- type: reddit
+  title: "ADD TITLE — AskBelgium thread"
+  url: "https://www.reddit.com/r/AskBelgium/s/GmTNhV1QEa"
+
+- type: newsletter
+  title: "Mediterranea BXL"
+  creator: "Brussels chapter of Italian sea rescue NGO — max once a month"
+  url: "https://substack.com/@mediterraneabxl"
+
+- type: book
+  title: "The True True Story of Raja the Gullible"
+  creator: "Rabih Alameddine"
+  year: 2025
+
+- type: book
+  title: "Hayek's Bastards: Race, Gold, IQ, and the Capitalism of the Far Right"
+  creator: "Quinn Slobodian"
+  year: 2025
+
+- type: book
+  title: "The Patriarchs: How Men Came to Rule"
+  creator: "Angela Saini"
+  year: 2023
+
+- type: book
+  title: "Control: The Dark History and Troubling Present of Eugenics"
+  creator: "Adam Rutherford"
+  year: 2022
+
+- type: book
+  title: "A Feeling for the Organism: The Life and Work of Barbara McClintock"
+  creator: "Evelyn Fox Keller"
+  year: 1983
+
+- type: book
+  title: "The Displaced"
+  creator: "Viet Thanh Nguyen (ed.)"
+  year: 2018
