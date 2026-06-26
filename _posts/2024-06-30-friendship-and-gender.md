@@ -1,7 +1,7 @@
 ---
 layout: session
 title: "Friendship &amp; Gender"
-subtitle: "Why are women's friendships undervalued — and under pressure?"
+subtitle: "Why are women's friendships undervalued and under pressure?"
 date: 2024-06-30
 ---
 
@@ -51,6 +51,13 @@ This session explored what the "catch-up friendship crisis" says about how we st
     <ul>
       <li>Are we outsourcing emotional intimacy to therapists?</li>
       <li>What does this mean for the depth of platonic friendships?</li>
+    </ul>
+  </li>
+  <li> Our conclusion
+    <ul>
+      <li>Be the village you want to live in.</li>
+      <li>Tired or no motivation? Still show up for that friend who needs your support, maybe you will actually enjoy it.</li>
+      <li>Mental illness or health issues exluded but you could still inform your friends on that and maybe just plan something else?</li>
     </ul>
   </li>
 </ol>
