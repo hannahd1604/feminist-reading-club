@@ -5,7 +5,7 @@ subtitle: "When the law is the patriarchy"
 date: 2024-08-20
 ---
 
-Three interconnected legal fronts — abortion rights, gender-based violence, and parental leave — framed this session on how legislation either reinforces or dismantles patriarchal structures. We examined the global rollback of abortion rights following the US Supreme Court ruling, the data on femicide and intimate partner violence across Europe, and what countries' parental leave policies reveal about how much they actually value caregiving. Project 2025 featured prominently as a case study in policy as ideology.
+Three interconnected legal fronts: abortion rights, gender-based violence, and parental leave. We framed this session on how legislation either reinforces or dismantles patriarchal structures. We examined the global rollback of abortion rights following the US Supreme Court ruling, the data on femicide and intimate partner violence across Europe, and what countries' parental leave policies reveal about how much they actually value caregiving. Project 2025 featured prominently as a case study in policy as ideology.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
@@ -46,15 +46,20 @@ Three interconnected legal fronts — abortion rights, gender-based violence, an
   <li>Gender-based violence
     <ul>
       <li>The Istanbul Convention: what it is, and which countries have not signed</li>
-      <li>Femicide data across Europe — patterns and causes</li>
+      <li>Femicide data across Europe. What are the patterns and possible causes</li>
       <li>Football tournaments and spikes in domestic abuse</li>
     </ul>
   </li>
   <li>Parental leave
     <ul>
       <li>Definitions: maternity vs paternity vs shared parental leave</li>
-      <li>Country comparisons — who leads and who lags</li>
+      <li>Country comparisons: Who leads and who lags</li>
       <li>Why paternity leave matters for gender equality at home</li>
+  <li>Our conclusion
+    <ul>
+      <li>important to focus on laws as they determine the world we live in</li>
+      <li>Even though equally important, we should not only focus on easier-to-digest topics such as parental leave but also look as abortion and femicides.</li>
+      <li>Do not forget the factor society plays: even if the laws are there, not everyone lives accroding to, e.g., fathers not taking their legal leave as they are expected to work anyway.</li>
     </ul>
   </li>
 </ol>
