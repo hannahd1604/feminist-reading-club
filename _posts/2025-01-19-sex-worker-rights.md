@@ -5,7 +5,7 @@ subtitle: "Can feminism agree on what liberation looks like here?"
 date: 2025-01-19
 ---
 
-Few topics in feminist debate are as contested as sex work. This session tried to hold that tension honestly — between the abolitionist position, the harm-reduction view, and the voices of sex workers themselves. We started with definitions, moved through media representations and legal frameworks, and ended with the question of what feminist solidarity actually demands here.
+Given that Belgium is the first country worldwide to allow workers' rights to sex workers (only in 20205, why?), it is time to look closer at sex work in the FRC: Few topics in feminist debate are as contested as sex work. This session tried to hold that tension honestly: between the abolitionist position, the harm-reduction view, and the voices of sex workers themselves. We started with definitions, moved through media representations and legal frameworks, and ended with the question of what feminist solidarity actually demands here.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
@@ -37,16 +37,16 @@ Few topics in feminist debate are as contested as sex work. This session tried t
   </li>
   <li>Definitions
     <ul>
-      <li>Sex work, prostitution, human trafficking, street work — why the language matters</li>
+      <li>Sex work, prostitution, human trafficking, street work and why the language matters</li>
       <li>Abolitionism of prostitution as a feminist position</li>
     </ul>
   </li>
   <li>Media and pop culture representations
     <ul>
-      <li>The "happy hooker" narrative — where does it come from?</li>
+      <li>The "happy hooker" narrative, where does it come from?</li>
       <li>OnlyFans: legal certification in the UK, what it can and cannot host</li>
       <li>Lily Phillips, Anora, and the girlbossification of sex work</li>
-      <li>Holistic vs exploitative portrayals — what does Anora do differently?</li>
+      <li>Holistic vs exploitative portrayals, what does Anora do differently?</li>
     </ul>
   </li>
   <li>Legal frameworks across Europe
