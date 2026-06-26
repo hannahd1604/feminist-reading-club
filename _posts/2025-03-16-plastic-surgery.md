@@ -5,7 +5,7 @@ subtitle: "Can a choice be free if it's made under patriarchal beauty standards?
 date: 2025-03-16
 ---
 
-Plastic surgery sits at the intersection of bodily autonomy, beauty standards, and social pressure — and this session asked whether choices made under patriarchal conditions can be fully free. We defined the landscape from fillers to BBLs, examined the cosmetic surgery paradox (rising popularity alongside persistent stigma), and heard first-person accounts from people who have had procedures. The session centred on a well-researched video essay and an academic paper on feminist perspectives on cosmetic surgery, including a close look at what the data on body dysmorphia reveals.
+Plastic surgery sits at the intersection of bodily autonomy, beauty standards, and social pressure. In this session, we asked whether choices made under patriarchal conditions can be fully free. We defined the landscape from fillers to BBLs, examined the cosmetic surgery paradox (rising popularity alongside persistent stigma), and heard first-person accounts from people who have had procedures. The session centred on a well-researched video essay and an academic paper on feminist perspectives on cosmetic surgery, including a close look at what the data on body dysmorphia reveals.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
@@ -67,7 +67,7 @@ Plastic surgery sits at the intersection of bodily autonomy, beauty standards, a
       <li>"Medicalised problems": flat breasts, small penises, ageing faces — what does it mean to frame these as medical issues?</li>
       <li>Government policy: Brazil subsidised cosmetic surgery in the 1960s as a solution to class inequality</li>
       <li>Why is cosmetic surgery stigmatised despite its popularity?</li>
-      <li>Objectification theory: is cosmetic surgery seen as "giving an unfair advantage" or "devaluing other women"?</li>
+      <li>Objectification theory: Is cosmetic surgery seen as "giving an unfair advantage" or "devaluing other women"?</li>
     </ul>
   </li>
 </ol>
