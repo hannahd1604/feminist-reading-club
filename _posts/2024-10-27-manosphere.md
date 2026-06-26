@@ -5,7 +5,7 @@ subtitle: "From pickup artistry to radicalisation: who is teaching boys to hate 
 date: 2024-10-27
 ---
 
-The manosphere — a loose online ecosystem of incel communities, men's rights movements, pickup artists, and MGTOW — was the focus of this session, with Andrew Tate and Jordan Peterson as entry points into a broader analysis of what draws men to these spaces. We examined how social media creates radicalisation pipelines, what academic research says about the roots of misogynist extremism, and whether male vulnerability and loneliness can be addressed without ceding ground to reactionary frameworks.
+The manosphere, a loose online ecosystem of incel communities, men's rights movements, pickup artists, and MGTOW (men go their own way),  was the focus of this session, with Andrew Tate and Jordan Peterson as entry points into a broader analysis of what draws men to these spaces. We examined how social media creates radicalisation pipelines, what academic research says about the roots of misogynist extremism, and whether male vulnerability and loneliness can be addressed without ceding ground to reactionary frameworks.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
@@ -56,7 +56,7 @@ The manosphere — a loose online ecosystem of incel communities, men's rights m
     <ul>
       <li>Is there a real underlying problem being exploited here?</li>
       <li>What would a healthy alternative framework for masculinity look like?</li>
-      <li>What role does male friendship play — and why is it so hard?</li>
+      <li>What role does male friendship play, and why is it so hard?</li>
     </ul>
   </li>
   <li>Social media responsibility
