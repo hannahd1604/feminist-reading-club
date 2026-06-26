@@ -11,7 +11,7 @@ Our inaugural session. We introduced the reading club and opened with a topic th
 <div class="materials-block">
   <div class="materials-label">Main</div>
   <ul class="materials-list">
-    <li>Global data on women's political participation — representation rates, party quotas, and which countries are ahead and why — from <a href="https://ourworldindata.org/women-in-politics" target="_blank" rel="noopener">Our World in Data</a> <span class="dur">(article)</span></li>
+    <li>Global data on women's political participation: representation rates, party quotas, and which countries are ahead and why, from <a href="https://ourworldindata.org/women-in-politics" target="_blank" rel="noopener">Our World in Data</a> <span class="dur">(article)</span></li>
     <li><a href="https://www.unwomen.org/en/what-we-do/leadership-and-political-participation" target="_blank" rel="noopener">UN Women overview</a> on barriers and solutions to women's political participation <span class="dur">(article)</span></li>
     <li>Short <a href="https://www.youtube.com/watch?v=oKkXQqUqNiw" target="_blank" rel="noopener">documentary on women in German politics</a> and the dynamics of being one of few women in a male-dominated parliament <span class="dur">(YouTube)</span></li>
     <li>Pre-election interviews with women voting for Trump: <a href="https://www.ft.com/content/women-trump-2024" target="_blank" rel="noopener">Financial Times</a> analysis of how gender does not determine political alignment <span class="dur">(article · FT)</span></li>
@@ -20,7 +20,7 @@ Our inaugural session. We introduced the reading club and opened with a topic th
 
 <div class="section-head" id="structure">Session structure</div>
 <ol class="structure-list">
-  <li>Introduction and framing — why this topic, why now (post-2024 US election)
+  <li>Introduction and framing: why this topic, why now (post-2024 US election)
     <ul>
       <li>What does female political representation actually change?</li>
       <li>What does it fail to change?</li>
@@ -29,7 +29,7 @@ Our inaugural session. We introduced the reading club and opened with a topic th
   <li>Data on women in politics
     <ul>
       <li>Representation rates in parliaments and cabinets globally</li>
-      <li>Party quota systems — which countries use them and do they work?</li>
+      <li>Party quota systems: which countries use them and do they work?</li>
       <li>Countries that are ahead: Rwanda, Nordic countries, and what they did differently</li>
     </ul>
   </li>
