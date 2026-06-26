@@ -63,5 +63,5 @@ body {
   <p>Links to third-party articles, videos, and resources are provided for reference and discussion. We are not responsible for the content or availability of external sites.</p>
 
   <h2>About this site</h2>
-  <p>This website was vibe-coded with the assistance of <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a> (Anthropic).</p>
+  <p>This website was vibe-coded with the assistance of <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a> (Anthropic). Icons were created with <a href="https://www.canva.com" target="_blank" rel="noopener">Canva</a>.</p>
 </div>
