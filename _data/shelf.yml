@@ -1,7 +1,44 @@
 # Shelf — community recommendations
-# Types: article, youtube, spotify, book, reddit, newsletter
+# Types: article, youtube, spotify, playlist, book, reddit, newsletter
 # For books: leave url blank (we don't link to Amazon/Goodreads)
 # To add an item: copy a block, fill in fields, paste at the top of the list
+
+- type: book
+  title: "Half His Age"
+  creator: "Jennette McCurdy"
+  year: 2026
+
+- type: spotify
+  title: "Margot Robbie, Jacob Elordi & Alison Oliver: Wuthering Heights"
+  creator: "Inklings Book Club"
+  url: "https://open.spotify.com/episode/0as7gO4hwFuaLSNsdZLKBw"
+  note: "Contains a broad storyline — no direct spoilers"
+
+- type: spotify
+  title: "Emerald Fennell: Wuthering Heights"
+  creator: "Inklings Book Club"
+  url: "https://open.spotify.com/episode/6Zin8zbkbf3nlHtEguLBAt"
+  note: "Just online!"
+
+- type: youtube
+  title: "Emerald Fennell on directing Wuthering Heights, Promising Young Woman and that scene in Saltburn"
+  creator: "BBC Radio 1"
+  url: "https://youtu.be/_tqqhcoQdeQ"
+
+- type: youtube
+  title: "Wuthering Heights (2026) is a MESS"
+  creator: "uncarley"
+  url: "https://youtu.be/Xz3iFr9x2ZY"
+
+- type: youtube
+  title: "Inside Cathy's Wuthering Heights House with Margot Robbie — Set Tour"
+  creator: "Architectural Digest"
+  url: "https://youtu.be/SxK9N-oig4g"
+
+- type: playlist
+  title: "female rage x FRC"
+  creator: "Hannah1604 · 59 tracks"
+  url: "https://open.spotify.com/playlist/1UHqpvk415AWKBH7nTVy5y"
 
 - type: article
   title: "Almost a third of Gen Z men agree a wife should obey her husband"
