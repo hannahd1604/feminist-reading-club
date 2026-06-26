@@ -5,7 +5,7 @@ subtitle: "Does language describe gender, or does it create it?"
 date: 2024-07-21
 ---
 
-Language both reflects and reinforces our ideas about gender — in gendered grammar, in what we call people, and in how AI systems learn from biased text. This session explored Judith Butler's theory that language doesn't merely describe gender identities but constitutes them, then moved to practical examples: from "you guys" as an unmarked plural to the challenges trans parents face when existing categories don't fit. We also examined how gendered assumptions get encoded into AI systems.
+Language both reflects and reinforces our ideas about gender: in gendered grammar, in what we call people, and in how AI systems learn from biased text. This session explored Judith Butler's theory that language doesn't merely describe gender identities but constitutes them, then moved to practical examples: from "you guys" as an unmarked plural to the challenges trans parents face when existing categories don't fit. We also examined how gendered assumptions get encoded into AI systems.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
@@ -35,7 +35,7 @@ Language both reflects and reinforces our ideas about gender — in gendered gra
   </li>
   <li>Native language and grammatical gender
     <ul>
-      <li>Romance languages and the default masculine — what is lost when all groups become "guys"?</li>
+      <li>Romance languages and the default masculine; What is lost when all groups become "guys"?</li>
       <li>What is gained when a language lacks grammatical gender?</li>
     </ul>
   </li>
@@ -47,7 +47,7 @@ Language both reflects and reinforces our ideas about gender — in gendered gra
   </li>
   <li>Trans and queer experience of language
     <ul>
-      <li>The podcast on trans parents — navigating "mum," "dad," and what comes in between</li>
+      <li>The podcast on trans parents: navigating "mum," "dad," and what comes in between</li>
       <li>What happens when existing categories don't fit?</li>
     </ul>
   </li>
@@ -60,7 +60,7 @@ Language both reflects and reinforces our ideas about gender — in gendered gra
   <li>Gender bias in AI
     <ul>
       <li>How training data encodes gendered assumptions into language models</li>
-      <li>Who is responsible — developers, companies, or all of us who use these systems?</li>
+      <li>Who is responsible -the developers, companies, or all of us who use these systems?</li>
     </ul>
   </li>
 </ol>
