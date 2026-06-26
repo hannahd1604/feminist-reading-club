@@ -5,7 +5,7 @@ subtitle: "Is the divine feminine liberating women or reinventing their cage?"
 date: 2026-06-21
 ---
 
-Astrology apps, crystal healing, divine feminine content, and trad wife aesthetics are everywhere online — often among the same audiences. This session tried to understand why esoteric spirituality is booming, who it serves, and where it shades into gender essentialism. We asked whether the divine feminine is a genuine reclamation of suppressed spiritual traditions, or a new container for old ideas about how women should be.
+In honor of the summer solstice this month, we look closer into its content realm on social media. Astrology apps, crystal healing, divine feminine content, and trad wife aesthetics are everywhere online, often among the same audiences. This session tried to understand why esoteric spirituality is booming, who it serves, and where it shades into gender essentialism. We asked whether the divine feminine is a genuine reclamation of suppressed spiritual traditions, or a new container for old ideas about how women should be.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
@@ -37,21 +37,21 @@ Astrology apps, crystal healing, divine feminine content, and trad wife aestheti
     <ul>
       <li>What is gender essentialism and why does it appeal?</li>
       <li>How esoteric content online often reasserts it — femininity coaching, divine feminine branding</li>
-      <li>What does science say about gender difference? (PMC article)</li>
+      <li>What does science say about gender differences? (PMC article)</li>
     </ul>
   </li>
   <li>Esotericism as an alternative to institutional religion
     <ul>
-      <li>Why might women seek spiritual practice outside churches, mosques, temples?</li>
+      <li>Why might women seek spiritual practice outside churches, mosques, and temples?</li>
       <li>The appeal of a women-centred space — and who gets to be in that space</li>
-      <li>Exclusion of queer people, trans people, BIPOC practitioners in many esoteric spaces</li>
+      <li>Exclusion of queer people, trans people, and BIPOC practitioners in many esoteric spaces</li>
     </ul>
   </li>
   <li>The political connections
     <ul>
       <li>Why does trad wife content overlap so often with astrology and witchcraft?</li>
-      <li>Divine feminine on TikTok — a gateway to conservative gender politics?</li>
-      <li>Links to the rise of toxic masculinity — the two sides of the same gender-essentialist coin</li>
+      <li>Divine feminine on TikTok: a gateway to conservative gender politics?</li>
+      <li>Links to the rise of toxic masculinity: the two sides of the same gender-essentialist coin</li>
     </ul>
   </li>
   <li>What do we make of it?
@@ -59,5 +59,12 @@ Astrology apps, crystal healing, divine feminine content, and trad wife aestheti
       <li>Can esotericism be feminist? What would that require?</li>
       <li>Where do you personally draw the line between spiritual practice and harmful ideology?</li>
     </ul>
+  </li>
+  <li>Our conclusion
+    <ul>
+      <li>Being empowered by female energy can be really useful for women and might be seen as an alternative to male-centered religions.</li>
+      <li>It is, however, important not to fall into gender-essentialism and be aware of the far right that employs the same rhetoric </li>
+      <li>Be aware of scammers who profit from your insecurities and sell expensive courses as remedies for all</li>
+    </ul>    
   </li>
 </ol>
