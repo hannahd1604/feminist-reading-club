@@ -14,6 +14,6 @@ We discussed how the novel uses Kafka as a reference point (Nila's obsession wit
 
 <div class="book-links">
 <ul>
-  <li><a href="https://open.spotify.com/episode/2HJJiHYaGfUVoBT8NLOw4u" target="_blank" rel="noopener">Aria Aber on Inklings Book Club</a> — the author in conversation about Good Girl</li>
+  <li><a href="https://open.spotify.com/episode/4r6xbG3UWvzcGmgh43ukzl" target="_blank" rel="noopener">Aria Aber on Inklings Book Club</a> — the author in conversation about Good Girl</li>
 </ul>
 </div>
