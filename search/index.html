@@ -1,0 +1,274 @@
+---
+layout: default
+title: Search
+---
+<style>
+:root {
+  --g:   #fdf5f7;
+  --t:   #2a1f0e;
+  --m:   #5a4e40;
+  --ru:  #e0d4e8;
+  --pu:  #4a1f6a;
+  --pum: #7040a0;
+  --gr:  #1e3d22;
+  --grm: #2c5a32;
+}
+body {
+  background: var(--g);
+  background-image: repeating-linear-gradient(
+    transparent 0px, transparent 30px,
+    rgba(74,31,106,0.04) 30px, rgba(74,31,106,0.04) 31px
+  );
+  color: var(--t);
+  font-family: 'Calibri', system-ui, sans-serif;
+}
+
+/* ─── Masthead + search input ───────────────────── */
+.search-masthead {
+  background: var(--pu);
+  background-image: repeating-linear-gradient(
+    transparent 0px, transparent 30px,
+    rgba(255,255,255,0.04) 30px, rgba(255,255,255,0.04) 31px
+  );
+  border-bottom: 3px solid var(--gr);
+  padding: 2.8rem 3rem 2.8rem;
+}
+.search-masthead-label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: rgba(255,255,255,0.6); margin-bottom: 1rem;
+}
+.search-input-wrap { position: relative; max-width: 680px; }
+.search-input-wrap svg {
+  position: absolute; left: 1.1rem; top: 50%; transform: translateY(-50%);
+  width: 18px; height: 18px; color: var(--pum); pointer-events: none;
+  flex-shrink: 0;
+}
+#frc-search-input {
+  width: 100%; padding: 1rem 1.1rem 1rem 3.2rem;
+  font-family: 'Courier New', Courier, monospace; font-size: 1.1rem;
+  border: none; border-radius: 2px;
+  background: #fff; color: var(--t);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  outline: none;
+  transition: box-shadow .15s;
+}
+#frc-search-input:focus { box-shadow: 0 2px 18px rgba(0,0,0,0.25); }
+#frc-search-input::placeholder { color: #bbb; }
+.search-hint {
+  font-size: 0.8rem; color: rgba(255,255,255,0.5);
+  margin-top: 0.9rem; font-style: italic;
+}
+
+/* ─── Results ───────────────────────────────────── */
+.search-body { max-width: 760px; margin: 0 auto; padding: 2.5rem 3rem 4rem; }
+
+.search-status {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.82rem;
+  color: var(--m); margin-bottom: 2rem; letter-spacing: 0.05em;
+}
+
+.search-group { margin-bottom: 2.5rem; }
+.search-group-label {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.68rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--pum);
+  font-weight: bold; padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--ru); margin-bottom: 0.8rem;
+}
+.search-group-label span { color: var(--m); font-weight: normal; font-size: 0.62rem; }
+
+/* result items */
+.sres {
+  display: block; text-decoration: none;
+  padding: 1rem 1.2rem; margin-bottom: 0.5rem;
+  border: 1px solid var(--ru); border-radius: 2px; background: #fff;
+  box-shadow: 0 1px 6px rgba(74,31,106,0.06);
+  transition: transform .12s, box-shadow .12s;
+}
+.sres:hover { transform: translateX(3px); box-shadow: 0 3px 12px rgba(74,31,106,0.11); }
+.sres-nolink { cursor: default; }
+.sres-nolink:hover { transform: none; box-shadow: 0 1px 6px rgba(74,31,106,0.06); }
+.sres-meta {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.62rem;
+  color: var(--m); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.3rem;
+}
+.sres-title {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.95rem;
+  font-weight: bold; color: var(--t); line-height: 1.25; margin-bottom: 0.2rem;
+}
+.sres-sub { font-size: 0.83rem; color: var(--m); font-style: italic; line-height: 1.4; }
+mark {
+  background: rgba(74,31,106,0.14); color: var(--pu);
+  border-radius: 1px; padding: 0 1px;
+}
+
+@media (max-width: 700px) {
+  .search-masthead { padding: 1.8rem 1.4rem; }
+  .search-body { padding: 2rem 1.4rem 3rem; }
+}
+</style>
+
+{% assign sessions_chron = site.posts | reverse %}
+{% assign books_chron = site.books | sort: 'date' %}
+
+<script>
+var FRC_DATA = [
+  {% for post in site.posts %}
+  {
+    "t": "session",
+    "title": {{ post.title | jsonify }},
+    "sub": {{ post.subtitle | default: "" | jsonify }},
+    "url": {{ post.url | relative_url | jsonify }},
+    "date": {{ post.date | date: "%b %Y" | jsonify }},
+    "body": {{ post.content | strip_html | truncate: 600 | jsonify }},
+    "num": {% assign snum = 0 %}{% for p in sessions_chron %}{% if p.url == post.url %}{% assign snum = forloop.index %}{% endif %}{% endfor %}{{ snum }}
+  },
+  {% endfor %}
+  {% for book in books_chron %}
+  {
+    "t": "book",
+    "title": {{ book.title | jsonify }},
+    "author": {{ book.author | default: "" | jsonify }},
+    "url": {{ book.url | relative_url | jsonify }},
+    "date": {{ book.date | date: "%b %Y" | jsonify }},
+    "body": {{ book.content | strip_html | truncate: 600 | jsonify }},
+    "num": {{ forloop.index }}
+  },
+  {% endfor %}
+  {% for item in site.data.shelf %}
+  {
+    "t": "shelf",
+    "title": {{ item.title | jsonify }},
+    "creator": {{ item.creator | default: "" | jsonify }},
+    "url": {{ item.url | default: "" | jsonify }},
+    "date": {{ item.date | default: "" | jsonify }},
+    "shelftype": {{ item.type | jsonify }}
+  },
+  {% endfor %}
+];
+</script>
+
+<div class="search-masthead">
+  <div class="search-masthead-label">Feminist Reading Club &middot; Search</div>
+  <div class="search-input-wrap">
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="8.5" cy="8.5" r="5.5"/><line x1="13" y1="13" x2="18" y2="18"/>
+    </svg>
+    <input id="frc-search-input" type="search" placeholder="Judith Butler, female rage, bell jar…" autocomplete="off" autofocus>
+  </div>
+  <p class="search-hint">Searches across all sessions, books, and shelf items.</p>
+</div>
+
+<div class="search-body">
+  <div class="search-status" id="frc-search-status">Start typing to search.</div>
+  <div id="frc-results"></div>
+</div>
+
+<script>
+(function () {
+  var input = document.getElementById('frc-search-input');
+  var status = document.getElementById('frc-search-status');
+  var results = document.getElementById('frc-results');
+  var timer;
+
+  var SHELF_LABELS = {
+    youtube: 'Watch', spotify: 'Listen', article: 'Read',
+    book: 'Book', reddit: 'Thread', newsletter: 'Newsletter', playlist: 'Playlist'
+  };
+
+  function esc(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function highlight(text, q) {
+    if (!q) return esc(text);
+    var re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+    return esc(text).replace(re, '<mark>$1</mark>');
+  }
+
+  function matches(item, q) {
+    var fields = [item.title, item.sub, item.author, item.creator, item.body, item.date];
+    return fields.some(function (f) { return f && f.toLowerCase().indexOf(q) !== -1; });
+  }
+
+  function render(q) {
+    var sessions = [], books = [], shelf = [];
+    FRC_DATA.forEach(function (item) {
+      if (matches(item, q)) {
+        if (item.t === 'session') sessions.push(item);
+        else if (item.t === 'book') books.push(item);
+        else shelf.push(item);
+      }
+    });
+
+    var total = sessions.length + books.length + shelf.length;
+    if (total === 0) {
+      status.textContent = 'No results for “' + q + '”.';
+      results.innerHTML = '';
+      return;
+    }
+    status.textContent = total + ' result' + (total === 1 ? '' : 's') + ' for “' + q + '”';
+
+    function groupHTML(label, items, renderItem) {
+      if (!items.length) return '';
+      return '<div class="search-group">' +
+        '<div class="search-group-label">' + label + ' <span>(' + items.length + ')</span></div>' +
+        items.map(renderItem).join('') +
+        '</div>';
+    }
+
+    var html = '';
+
+    html += groupHTML('Sessions', sessions, function (s) {
+      var num = s.num < 10 ? '0' + s.num : '' + s.num;
+      return '<a class="sres" href="' + s.url + '">' +
+        '<div class="sres-meta">' + num + ' &middot; ' + esc(s.date) + '</div>' +
+        '<div class="sres-title">' + highlight(s.title, q) + '</div>' +
+        (s.sub ? '<div class="sres-sub">' + highlight(s.sub, q) + '</div>' : '') +
+        '</a>';
+    });
+
+    html += groupHTML('Book Club', books, function (b) {
+      var num = b.num < 10 ? '0' + b.num : '' + b.num;
+      return '<a class="sres" href="' + b.url + '">' +
+        '<div class="sres-meta">' + num + ' &middot; ' + esc(b.date) + '</div>' +
+        '<div class="sres-title">' + highlight(b.title, q) + '</div>' +
+        '<div class="sres-sub">' + highlight(b.author, q) + '</div>' +
+        '</a>';
+    });
+
+    html += groupHTML('Shelf', shelf, function (sh) {
+      var label = SHELF_LABELS[sh.shelftype] || sh.shelftype;
+      var meta = (sh.date ? sh.date + ' &middot; ' : '') + label;
+      var inner =
+        '<div class="sres-meta">' + meta + '</div>' +
+        '<div class="sres-title">' + highlight(sh.title, q) + '</div>' +
+        (sh.creator ? '<div class="sres-sub">' + highlight(sh.creator, q) + '</div>' : '');
+      return sh.url
+        ? '<a class="sres" href="' + esc(sh.url) + '" target="_blank" rel="noopener">' + inner + '</a>'
+        : '<div class="sres sres-nolink">' + inner + '</div>';
+    });
+
+    results.innerHTML = html;
+  }
+
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    var q = input.value.trim().toLowerCase();
+    if (q.length < 2) {
+      status.textContent = q.length === 0 ? 'Start typing to search.' : 'Keep typing…';
+      results.innerHTML = '';
+      return;
+    }
+    timer = setTimeout(function () { render(q); }, 180);
+  });
+
+  // support ?q= from URL
+  var params = new URLSearchParams(window.location.search);
+  var preq = params.get('q');
+  if (preq) {
+    input.value = preq;
+    render(preq.toLowerCase());
+  }
+})();
+</script>
