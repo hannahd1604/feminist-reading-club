@@ -5,7 +5,7 @@ subtitle: "What do women lose when diversity disappears from science?"
 date: 2025-04-27
 ---
 
-Medical science has a women problem: for decades, drug trials, diagnostic tools, and clinical standards were calibrated on male bodies and male symptoms. This session traced how that systemic bias plays out — in research funding, in pain management, in dismissed diagnoses, and in how Black and brown women face compounded harm from medical racism and misogyny. The timing was deliberate: in early 2025, a wave of US executive orders was defunding the very research that was starting to close these gaps.
+Medical science has a women's problem: for decades, drug trials, diagnostic tools, and clinical standards were calibrated on male bodies and male symptoms. This session traced how systemic bias plays out: in research funding, in pain management, in dismissed diagnoses, and in how Black and brown women face compounded harm from medical racism and misogyny. The timing was deliberate: in early 2025, a wave of US executive orders was defunding the very research that was starting to close these gaps.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
@@ -30,7 +30,7 @@ Medical science has a women problem: for decades, drug trials, diagnostic tools,
 
 <div class="section-head" id="structure">Session structure</div>
 <ol class="structure-list">
-  <li>The gender health gap — what is it?
+  <li>The gender health gap - what is it?
     <ul>
       <li>Drugs dosed for male bodies, conditions presenting differently in women</li>
       <li>The history of excluding women from clinical trials (fear of hormonal variability, liability)</li>
@@ -53,7 +53,7 @@ Medical science has a women problem: for decades, drug trials, diagnostic tools,
   <li>Race and the health gap
     <ul>
       <li>Black women face compounded harm: medical racism + misogyny</li>
-      <li>Maternal mortality rates by race — the data is stark</li>
+      <li>Maternal mortality rates by race, the data is stark</li>
       <li>Conditions on darker skin: what dermatology training misses</li>
     </ul>
   </li>
