@@ -44,7 +44,7 @@ Starting with a brief history of feminist waves and ending with intersectionalit
     <ul>
       <li>Crenshaw's framework and what it means in practice</li>
       <li>Who has been excluded from previous feminist waves, and why?</li>
-      <li>Trad wives and TERFs — where do they sit within feminist thought?</li>
+      <li>Trad wives and TERFs, where do they sit within feminist thought?</li>
     </ul>
   </li>
   <li>Open questions
