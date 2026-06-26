@@ -114,8 +114,9 @@ body {
 .cform button:hover { background: var(--pum); }
 
 @media (max-width: 700px) {
-  .book-masthead { flex-direction: column; align-items: flex-start; gap: 1rem; padding: 2rem 1.4rem; }
-  .book-masthead-img { width: 4.5rem; height: 4.5rem; }
+  .book-masthead { flex-direction: column; align-items: flex-start; gap: 0.6rem; padding: 1.6rem 1.4rem 1.4rem; position: relative; }
+  .book-masthead-img { width: 3.5rem; height: 3.5rem; }
+  .book-masthead-text .stamp { position: absolute; top: 1rem; right: 1.4rem; margin-bottom: 0; transform: rotate(1deg); font-size: 0.68rem; }
   .book-back, .book-body { padding-left: 1.4rem; padding-right: 1.4rem; }
   .cform button { width: 100%; text-align: center; }
 }

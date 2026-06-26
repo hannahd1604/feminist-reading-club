@@ -135,8 +135,9 @@ body {
 }
 .frc-shcard-mini-title {
   font-family: 'Courier New', Courier, monospace; font-size: 0.85rem;
-  font-weight: bold; color: var(--t); line-height: 1.25;
+  font-weight: bold; color: var(--t); line-height: 1.25; margin-bottom: 0.25rem;
 }
+.frc-shcard-mini-creator { font-size: 0.78rem; color: var(--m); font-style: italic; }
 .frc-bgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.1rem; }
 .frc-bcard {
   background: #fff; border: 1px solid var(--ru); border-radius: 2px;
@@ -263,6 +264,7 @@ body {
           {% endcase %}
         </div>
         <div class="frc-shcard-mini-title">{{ item.title }}</div>
+        {% if item.creator %}<div class="frc-shcard-mini-creator">{{ item.creator }}</div>{% endif %}
       {% if item.url %}</a>{% else %}</div>{% endif %}
     {% endfor %}
   </div>
