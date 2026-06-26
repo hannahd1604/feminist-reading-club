@@ -5,7 +5,7 @@ subtitle: "Written for women, or written for the male gaze?"
 date: 2024-05-05
 ---
 
-This session examined how women have been depicted in popular film and television over the last two decades — exploring recurring tropes like the manic pixie dream girl, the cool girl, and the born-sexy-yesterday fantasy, and asking how these have shifted (or not) in the wake of MeToo. We also discussed the toxic diet culture of early-2000s media, the male gaze in sex scenes, and where the line sits between female empowerment and exploitation.
+This session examined how women have been depicted in popular film and television over the last two decades, e.g., exploring recurring tropes like the manic pixie dream girl, the cool girl, and the born-sexy-yesterday fantasy, and asking how these have shifted (or not) in the wake of MeToo. We also discussed the toxic diet culture of early-2000s media, the male gaze in sex scenes, and where the line sits between female empowerment and exploitation.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
@@ -28,7 +28,7 @@ This session examined how women have been depicted in popular film and televisio
 <ol class="structure-list">
   <li>Tropes we recognise from film and TV
     <ul>
-      <li>Manic pixie dream girl, pick me girl, cool girl — where do we spot them?</li>
+      <li>Manic pixie dream girl, pick me girl, cool girl; where do we spot them?</li>
       <li>Born sexy yesterday: the fantasy of the powerful woman who is socially naive (Poor Things, etc.)</li>
     </ul>
   </li>
@@ -54,6 +54,11 @@ This session examined how women have been depicted in popular film and televisio
     <ul>
       <li>Euphoria vs Heartstopper — how do they depict young women differently?</li>
       <li>Has the industry actually changed, or just its marketing?</li>
+    </ul>
+  </li>
+  <li>Further reading:
+    <ul>
+      <li>check out the session on the book ["Girl on Girl" by Sophie Gilbert](https://feminist-reading-club.com/books/girl-on-girl/) </li>
     </ul>
   </li>
 </ol>
