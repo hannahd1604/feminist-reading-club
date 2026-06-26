@@ -62,7 +62,7 @@ In honor of the summer solstice this month, we look closer into its content real
   </li>
   <li>Our conclusion
     <ul>
-      <li>Being empowered by female energy can be really useful for women and might be seen as an alternative to male-centered religions.</li>
+      <li>Being empowered by female energy can be very inspiring for women, helps us form community, and might be seen as an alternative to male-centered religions.</li>
       <li>It is, however, important not to fall into gender-essentialism and be aware of the far right that employs the same rhetoric </li>
       <li>Be aware of scammers who profit from your insecurities and sell expensive courses as remedies for all</li>
     </ul>    
