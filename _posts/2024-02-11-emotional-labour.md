@@ -5,7 +5,7 @@ subtitle: "Who is doing the emotional work in your relationships?"
 date: 2024-02-11
 ---
 
-The inaugural session of the Feminist Reading Club explored emotional labour — the unequal distribution of emotional support, nurturing, and communication work in relationships. Drawing on two scientific papers, we examined how gender socialisation shapes who provides emotional labour and who receives it, and what research says about its effects on relationship quality and wellbeing. We also asked whether perceived differences in empathy between men and women reflect biology or learned gender roles.
+The inaugural session of the Feminist Reading Club explored emotional labour: the unequal distribution of emotional support, nurturing, and communication work in relationships. Drawing on two scientific papers, we examined how gender socialisation shapes who provides emotional labour and who receives it, and what research says about its effects on relationship quality and wellbeing. We also asked whether perceived differences in empathy between men and women reflect biology or learned gender roles.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
@@ -18,7 +18,7 @@ The inaugural session of the Feminist Reading Club explored emotional labour —
 <div class="materials-block">
   <div class="materials-label">Supplementary</div>
   <ul class="materials-list">
-    <li>Optional paper on emotional concepts and how they shape emotional communication — goes into more depth on how we develop our vocabulary for emotions <span class="dur">(paper · attached)</span></li>
+    <li>Optional paper on emotional concepts and how they shape emotional communication. It goes into more depth on how we develop our vocabulary for emotions <span class="dur">(paper · attached)</span></li>
   </ul>
 </div>
 
@@ -28,7 +28,7 @@ The inaugural session of the Feminist Reading Club explored emotional labour —
     <ul>
       <li>Personal definitions before the academic one</li>
       <li>Is emotional labour inherently negative, or can providing it also benefit the giver?</li>
-      <li>Transactional framing of relationships — useful or harmful?</li>
+      <li>Transactional framing of relationships, are they useful or harmful?</li>
     </ul>
   </li>
   <li>Paper 1: <em>A Labour of Love</em>
@@ -41,7 +41,7 @@ The inaugural session of the Feminist Reading Club explored emotional labour —
   <li>Paper 2: Empathy and gender
     <ul>
       <li>It may not be biological sex but female gender-role orientation that determines empathic capacity</li>
-      <li>Men in secure environments show more empathy — what does this say about fragile masculinity?</li>
+      <li>Men in secure environments show more empathy, but what does this say about fragile masculinity?</li>
       <li>How do we reward or penalise emotional availability in men?</li>
     </ul>
   </li>
