@@ -58,7 +58,7 @@ This session examined how women have been depicted in popular film and televisio
   </li>
   <li>Further reading:
     <ul>
-      <li>check out the session on the book ["Girl on Girl" by Sophie Gilbert](https://feminist-reading-club.com/books/girl-on-girl/) </li>
-    </ul>
+      <li>Check out the session on the book <a href="https://feminist-reading-club.com/books/girl-on-girl/">Girl on Girl</a> by Sophie Gilbert</li>
+      <ul>
   </li>
 </ol>
