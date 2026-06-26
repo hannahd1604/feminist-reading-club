@@ -51,30 +51,31 @@ body {
   font-style: italic; margin: 0;
 }
 
-/* ─── Back link ─────────────────────────────────── */
-.book-back {
-  max-width: 720px; margin: 0 auto; padding: 1.6rem 2rem 0;
+/* ─── Two-column body ───────────────────────────── */
+.book-page-body {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 0;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 3rem 4rem;
+  align-items: start;
 }
-.book-back a {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase;
-  color: var(--pum); text-decoration: none;
-}
-.book-back a:hover { color: var(--pu); }
 
-/* ─── Body ──────────────────────────────────────── */
-.book-body {
-  max-width: 720px; margin: 0 auto; padding: 1.8rem 2rem 5rem;
+/* ─── Main column ───────────────────────────────── */
+.book-main {
+  padding: 1.8rem 3rem 2rem 0;
+  border-right: 1px solid var(--ru);
   font-size: 1.02rem; line-height: 1.75;
 }
-.book-body p { margin-bottom: 1.2rem; }
-.book-body h2 {
+.book-main p { margin-bottom: 1.2rem; }
+.book-main h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.84rem; letter-spacing: 0.14em; text-transform: uppercase;
   color: var(--pum); margin-top: 2.4rem; margin-bottom: 0.7rem; font-weight: bold;
 }
-.book-body a { color: var(--gr); }
-.book-body a:hover { color: var(--pum); }
+.book-main a { color: var(--gr); }
+.book-main a:hover { color: var(--pum); }
 
 /* ─── Links box ─────────────────────────────────── */
 .book-links {
@@ -113,14 +114,59 @@ body {
 }
 .cform button:hover { background: var(--pum); }
 
-@media (max-width: 700px) {
+/* ─── Sidebar ───────────────────────────────────── */
+.book-sidebar { padding: 1.8rem 0 2rem 2rem; }
+.sidebar-back {
+  display: block; margin-bottom: 1.6rem;
+  font-family: 'Courier New', Courier, monospace; font-size: 0.68rem;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--m);
+  text-decoration: none; transition: color .12s;
+}
+.sidebar-back:hover { color: var(--pu); }
+.sidebar-label {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.65rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--pum);
+  margin-bottom: 0.8rem; padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--ru);
+}
+.slink {
+  padding: 0.75rem 0; border-bottom: 1px solid rgba(224,212,232,0.5);
+  transition: padding-left .12s;
+}
+.slink:last-child { border-bottom: none; }
+.slink:hover { padding-left: 4px; }
+.slink-num {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.6rem;
+  color: var(--m); letter-spacing: 0.08em; margin-bottom: 0.2rem;
+}
+.slink-title {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.8rem;
+  font-weight: bold; line-height: 1.25;
+}
+.slink-title a { color: var(--t); text-decoration: none; }
+.slink-title a:hover { color: var(--pu); }
+.slink-author { font-size: 0.75rem; color: var(--m); font-style: italic; margin-top: 0.15rem; }
+.slink.current .slink-title a { color: var(--pu); }
+.slink.current {
+  background: rgba(74,31,106,0.04);
+  padding: 0.75rem 0.6rem; border-radius: 2px;
+}
+
+/* ─── Responsive ────────────────────────────────── */
+@media (max-width: 760px) {
   .book-masthead { flex-direction: column; align-items: flex-start; gap: 0.6rem; padding: 1.6rem 1.4rem 1.4rem; position: relative; }
   .book-masthead-img { width: 3.5rem; height: 3.5rem; }
   .book-masthead-text .stamp { position: absolute; top: 1rem; right: 1.4rem; margin-bottom: 0; transform: rotate(1deg); font-size: 0.68rem; }
-  .book-back, .book-body { padding-left: 1.4rem; padding-right: 1.4rem; }
+  .book-page-body { grid-template-columns: 1fr; padding: 0 1.4rem 3rem; }
+  .book-sidebar { order: -1; padding: 0.8rem 0 0; }
+  .sidebar-back { font-size: 0.82rem; min-height: 44px; display: inline-flex; align-items: center; }
+  .sidebar-label, .slink { display: none; }
+  .book-main { padding: 1.6rem 0 1rem; border-right: none; }
   .cform button { width: 100%; text-align: center; }
 }
 </style>
+
+{% assign books_sorted = site.books | sort: 'date' | reverse %}
 
 <div class="book-masthead">
   <img class="book-masthead-img" src="{{ '/assets/img/book.png' | relative_url }}" alt="">
@@ -131,22 +177,38 @@ body {
   </div>
 </div>
 
-<div class="book-back">
-  <a href="{{ '/books' | relative_url }}">← Book Club</a>
-</div>
+<div class="book-page-body">
 
-<div class="book-body">
-  {{ content }}
+  <main class="book-main">
+    {{ content }}
 
-  <div class="book-comments">
-    <div class="book-comments-label">Leave a comment</div>
-    <p class="book-comments-note">Comments are reviewed by the organisers before appearing here.</p>
-    <form class="cform" action="https://submit.formspark.io/f/2x0lSx5iZ" method="POST">
-      <input type="text" name="name" placeholder="Name (optional)">
-      <input type="email" name="email" placeholder="Email (not shown publicly)" required>
-      <input type="hidden" name="book" value="{{ page.title }}">
-      <textarea name="message" placeholder="A thought, a recommendation, something the session brought up…"></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  </div>
+    <div class="book-comments">
+      <div class="book-comments-label">Leave a comment</div>
+      <p class="book-comments-note">Comments are reviewed by the organisers before appearing here.</p>
+      <form class="cform" action="https://submit.formspark.io/f/2x0lSx5iZ" method="POST">
+        <input type="text" name="name" placeholder="Name (optional)">
+        <input type="email" name="email" placeholder="Email (not shown publicly)" required>
+        <input type="hidden" name="book" value="{{ page.title }}">
+        <textarea name="message" placeholder="A thought, a recommendation, something the session brought up…"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </main>
+
+  <aside class="book-sidebar">
+    <a class="sidebar-back" href="{{ '/books' | relative_url }}">← Book Club</a>
+
+    <div class="sidebar-label">More books</div>
+
+    {% for book in books_sorted %}
+      <div class="slink {% if book.url == page.url %}current{% endif %}">
+        {% if book.date %}<div class="slink-num">{{ book.date | date: "%b %Y" }}</div>{% endif %}
+        <div class="slink-title">
+          <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
+        </div>
+        <div class="slink-author">{{ book.author }}</div>
+      </div>
+    {% endfor %}
+  </aside>
+
 </div>
