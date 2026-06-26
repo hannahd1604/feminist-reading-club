@@ -36,7 +36,7 @@ body {
   border-bottom: 3px solid var(--gr);
   display: flex; align-items: center; gap: 2rem;
 }
-.frc-masthead-img { width: 7rem; height: 7rem; flex-shrink: 0; }
+.frc-masthead-img { width: 9rem; height: 9rem; flex-shrink: 0; }
 .frc-masthead-text .stamp {
   display: inline-block;
   border: 1.5px solid rgba(255,255,255,0.4);
@@ -118,11 +118,28 @@ body {
   font-size: 0.72rem; color: var(--pum); margin-top: 0.4rem;
 }
 
+.frc-pagination {
+  display: flex; align-items: center; justify-content: center;
+  gap: 2rem; margin-top: 2.5rem; padding-top: 1.5rem;
+  border-top: 1px solid var(--ru);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.82rem; letter-spacing: 0.1em; text-transform: uppercase;
+}
+.frc-pagination button {
+  background: none; border: none; cursor: pointer; padding: 0;
+  font-family: inherit; font-size: inherit; letter-spacing: inherit;
+  text-transform: inherit; color: var(--pu); min-height: 44px;
+}
+.frc-pagination button:hover { color: var(--pum); }
+.frc-pagination button:disabled { color: var(--ru); cursor: default; }
+.frc-pagination-info { color: var(--m); }
+
 @media (max-width: 700px) {
   .frc-masthead { flex-direction: column; align-items: flex-start; gap: 1rem; padding: 2rem 1.4rem; }
-  .frc-masthead-img { width: 4rem; height: 4rem; }
+  .frc-masthead-img { width: 5rem; height: 5rem; }
   .frc-shelf { padding: 2rem 1.4rem 3rem; }
   .frc-shgrid { grid-template-columns: 1fr; }
+  .frc-pagination { gap: 1.2rem; }
 }
 </style>
 
@@ -138,7 +155,7 @@ body {
 </div>
 
 <div class="frc-shelf">
-  <div class="frc-shgrid">
+  <div class="frc-shgrid" id="frc-shgrid">
     {% for item in shelf %}
       {% if item.url %}
         <a class="frc-shcard is-link" data-type="{{ item.type }}" href="{{ item.url }}" target="_blank" rel="noopener">
@@ -147,7 +164,7 @@ body {
       {% endif %}
 
         <div class="frc-shcard-type">
-          {% case item.type %}
+          {% if item.date %}{{ item.date }} &middot; {% endif %}{% case item.type %}
             {% when "youtube" %}Watch
             {% when "spotify" %}Listen
             {% when "article" %}Read
@@ -166,4 +183,33 @@ body {
       {% if item.url %}</a>{% else %}</div>{% endif %}
     {% endfor %}
   </div>
+
+  <nav class="frc-pagination" id="frc-shelf-pagination">
+    <button id="frc-prev" onclick="shelfPage(currentPage-1)">&larr; Newer</button>
+    <span class="frc-pagination-info" id="frc-page-info"></span>
+    <button id="frc-next" onclick="shelfPage(currentPage+1)">Older &rarr;</button>
+  </nav>
 </div>
+
+<script>
+(function () {
+  var PER_PAGE = 15;
+  var cards = Array.from(document.querySelectorAll('#frc-shgrid .frc-shcard'));
+  var total = Math.ceil(cards.length / PER_PAGE);
+  window.currentPage = 1;
+
+  window.shelfPage = function (p) {
+    p = Math.max(1, Math.min(total, p));
+    window.currentPage = p;
+    cards.forEach(function (c, i) {
+      c.style.display = (i >= (p - 1) * PER_PAGE && i < p * PER_PAGE) ? '' : 'none';
+    });
+    document.getElementById('frc-page-info').textContent = p + ' / ' + total;
+    document.getElementById('frc-prev').disabled = p === 1;
+    document.getElementById('frc-next').disabled = p === total;
+    if (total <= 1) document.getElementById('frc-shelf-pagination').style.display = 'none';
+  };
+
+  shelfPage(1);
+})();
+</script>

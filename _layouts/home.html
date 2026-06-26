@@ -153,11 +153,19 @@ body {
 .frc-bcard:nth-child(4n+3)::before { background: var(--pum); }
 .frc-bcard:nth-child(4n+0)::before { background: var(--grm); }
 .frc-bcard:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(74,31,106,0.12); }
+.frc-bcard-num {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.65rem;
+  color: var(--m); letter-spacing: 0.1em; margin-bottom: 0.6rem;
+}
 .frc-bcard-title {
   font-family: 'Courier New', Courier, monospace; font-size: 0.92rem;
   font-weight: bold; color: var(--t); margin-bottom: 0.35rem; line-height: 1.25;
 }
-.frc-bcard-author { font-size: 0.78rem; color: var(--m); font-style: italic; }
+.frc-bcard-author { font-size: 0.78rem; color: var(--m); font-style: italic; margin-bottom: 0.2rem; }
+.frc-bcard-year {
+  font-family: 'Courier New', Courier, monospace; font-size: 0.72rem;
+  color: var(--pum); letter-spacing: 0.06em;
+}
 
 /* ─── Responsive ────────────────────────────────── */
 @media (max-width: 700px) {
@@ -207,19 +215,27 @@ body {
 </div>
 
 <!-- Book Club -->
-{% assign books_sorted = site.books | sort: 'date' | reverse %}
+{% assign books_chron = site.books | sort: 'date' %}
+{% assign books_sorted = books_chron | reverse %}
 {% if books_sorted.size > 0 %}
 <div class="frc-books">
   <div class="frc-eyebrow"><img src="{{ '/assets/img/book.png' | relative_url }}" alt="">Book Club</div>
   <div class="frc-bgrid">
-    {% for book in books_sorted %}
+    {% for book in books_sorted limit: 5 %}
+      {% assign bnum = books_chron.size %}
+      {% for b in books_chron %}{% if b.url == book.url %}{% assign bnum = forloop.index %}{% endif %}{% endfor %}
       <a class="frc-bcard" href="{{ book.url | relative_url }}">
+        <div class="frc-bcard-num">
+          {% if bnum < 10 %}0{{ bnum }}{% else %}{{ bnum }}{% endif %}
+          {% if book.date %}&middot; {{ book.date | date: "%b %Y" }}{% endif %}
+        </div>
         <div class="frc-bcard-title">{{ book.title }}</div>
-        <div class="frc-bcard-author">{{ book.author }}{% if book.year %} &middot; {{ book.year }}{% endif %}</div>
+        <div class="frc-bcard-author">{{ book.author }}</div>
+        {% if book.year %}<div class="frc-bcard-year">{{ book.year }}</div>{% endif %}
       </a>
     {% endfor %}
   </div>
-  <div class="frc-view-all"><a href="{{ '/books' | relative_url }}">View all books &rarr;</a></div>
+  <div class="frc-view-all"><a href="{{ '/books' | relative_url }}">View all {{ books_sorted.size }} books &rarr;</a></div>
 </div>
 {% endif %}
 
@@ -228,13 +244,24 @@ body {
 <div class="frc-shelf-home">
   <div class="frc-eyebrow"><img src="{{ '/assets/img/shelf.png' | relative_url }}" alt="" style="width:4rem;height:4rem;">Shelf</div>
   <div class="frc-shelf-mini">
-    {% for item in shelf limit: 4 %}
+    {% for item in shelf limit: 5 %}
       {% if item.url %}
         <a class="frc-shcard-mini" data-type="{{ item.type }}" href="{{ item.url }}" target="_blank" rel="noopener">
       {% else %}
         <div class="frc-shcard-mini" data-type="{{ item.type }}">
       {% endif %}
-        <div class="frc-shcard-mini-type">{{ item.type }}</div>
+        <div class="frc-shcard-mini-type">
+          {% if item.date %}{{ item.date }} &middot; {% endif %}{% case item.type %}
+            {% when "youtube" %}Watch
+            {% when "spotify" %}Listen
+            {% when "article" %}Read
+            {% when "book" %}Book
+            {% when "reddit" %}Thread
+            {% when "newsletter" %}Newsletter
+            {% when "playlist" %}Playlist
+            {% else %}{{ item.type }}
+          {% endcase %}
+        </div>
         <div class="frc-shcard-mini-title">{{ item.title }}</div>
       {% if item.url %}</a>{% else %}</div>{% endif %}
     {% endfor %}
