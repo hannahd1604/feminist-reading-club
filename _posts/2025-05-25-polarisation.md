@@ -5,7 +5,7 @@ subtitle: "Are men and women actually drifting apart, or does it just feel that 
 date: 2025-05-25
 ---
 
-Data from several countries suggests younger men and women are increasingly diverging in their political attitudes. This session examined that divergence through the lens of incel and femcel communities, the Korean 4B movement, and "dissociative feminism" — the coping strategy of laughing at the structures rather than confronting them. We also brought in biopolitics as a framework for understanding how bodies become targets of state control, in light of recent abortion legislation in the US.
+Data from several countries suggests that younger men and women are increasingly diverging in their political attitudes. This session examined that divergence through the lens of incel and femcel communities, the Korean 4B movement, and "dissociative feminism" — the coping strategy of laughing at the structures rather than confronting them. We also brought in biopolitics as a framework for understanding how bodies become targets of state control, in light of recent abortion legislation in the US.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">

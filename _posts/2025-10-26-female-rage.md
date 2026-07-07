@@ -5,7 +5,7 @@ subtitle: "What happens when women stop apologising for their anger?"
 date: 2025-10-26
 ---
 
-Anger has been coded as masculine and unfeminine for most of recorded history, and women who express it have been dismissed, pathologised, or punished. This session explored what happens when that suppressed rage becomes visible — in MeToo, in TikTok activism, and in the aesthetic of female rage now circulating online. We asked whether rage is transformative or self-limiting, and how intersectionality changes who gets to be angry — and who pays for it.
+Anger has been coded as masculine and unfeminine for most of recorded history, and women who express it have been dismissed, pathologised, or punished. This session explored what happens when that suppressed rage becomes visible, e.g., in MeToo, in TikTok activism, and in the aesthetic of female rage now circulating online. We asked whether rage is transformative or self-limiting, and how intersectionality changes who gets to be angry and who pays for it.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
@@ -32,7 +32,7 @@ Anger has been coded as masculine and unfeminine for most of recorded history, a
   <li>What is anger, and what are women taught to do with it?
     <ul>
       <li>Sadness is coded as more womanly; anger as a loss of femininity</li>
-      <li>"People need to calm down to have a discussion" — how this framing keeps injustice in place</li>
+      <li>"People need to calm down to have a discussion", how this framing keeps injustice in place</li>
       <li>Little Women: "Repress your anger, the problem is you"</li>
       <li>The angry women script — being reduced to one emotion instead of acknowledging frustration, fear, grief</li>
     </ul>
@@ -56,13 +56,13 @@ Anger has been coded as masculine and unfeminine for most of recorded history, a
     <ul>
       <li>Digital activism: how the platform shapes the message</li>
       <li>Sad girl aesthetics → female rage aesthetics — is it a catalyst for change or rebranding?</li>
-      <li>Stereotype of the "angry Black woman" — who pays the highest price for female rage?</li>
+      <li>Stereotype of the "angry Black woman": BIPOCs pay the highest price for female rage</li>
     </ul>
   </li>
   <li>How to channel rage
     <ul>
       <li>Organising and political engagement as an outlet</li>
-      <li>Intersectionality — take racism into account when talking about women's anger</li>
+      <li>Intersectionality: take racism into account when talking about women's anger</li>
       <li>Female rage can also be linked to helplessness, not only personal hurt</li>
     </ul>
   </li>
