@@ -3,6 +3,24 @@
 # For books: leave url blank (we don't link to Amazon/Goodreads)
 # To add an item: copy a block, fill in fields, paste at the top of the list
 
+- type: spotify
+  title: "The Technofascist Urge To Never Turn Down a Brand Deal"
+  creator: "A Bit Fruity with Matt Bernstein"
+  url: "https://open.spotify.com/episode/0tGKwwIWXFurNGTsys4sdr"
+  date: "Jul 2026"
+
+- type: book
+  title: "Caliban and the Witch"
+  creator: "Silvia Federici"
+  year: 2004
+  date: "Jul 2026"
+
+- type: book
+  title: "Et la joie de vivre"
+  creator: "Gisèle Pelicot"
+  year: 2026
+  date: "Jul 2026"
+
 - type: book
   title: "Half His Age"
   creator: "Jennette McCurdy"
