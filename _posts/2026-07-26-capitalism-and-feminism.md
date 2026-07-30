@@ -1,11 +1,11 @@
 ---
 layout: session
 title: "Capitalism &amp; Feminism"
-subtitle: "Can you buy your way out of the patriarchy, or is that just the sales pitch?"
+subtitle: "Can you girlboss your way out of the patriarchy, or is that the double burden for women reinvented?"
 date: 2026-07-26
 ---
 
-This session took on the girlboss and her discontents. We wanted to understand how feminism gets sold back to us as a brand, a t-shirt slogan, a seat at the boardroom table, and what gets lost in that transaction. We moved from the tax code to Silvia Federici to trad wife TikTok, and kept landing on the same tension: is the problem patriarchy borrowing capitalism's tools, or capitalism requiring patriarchy to function at all? We didn't fully resolve it, but we got a lot clearer on what's actually being asked when someone tells you to lean in.
+This session took on the girlboss and her discontents. We wanted to understand how feminism gets sold back to us as a brand, a t-shirt slogan, a seat at the boardroom table, and what gets lost in that transaction. We moved from the tax code to Silvia Federici to trad wife TikTok, and kept landing on the same tension: is the problem patriarchy borrowing capitalism's tools, or capitalism requiring patriarchy to function at all? We didn't fully resolve it, but we got a lot clearer on what's actually being asked when someone tells you to lean in. We also looked at communist countries and how communism, so far, has resulted in a double burden for women without resolving the underlying problems.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
