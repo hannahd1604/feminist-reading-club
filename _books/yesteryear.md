@@ -14,13 +14,15 @@ Natalie held the room. Unlikeable, unreliable, in the middle of a mental health 
 
 Burke's own podcast episode about the book made several of us revise upward how intentional all of it is. She wrote Yesteryear quickly, after more than a decade of trying to get published, with TikTok as the immediate prompt. She also raised the problem of fiction by young women always being read as semi-autobiographical, and made an argument for separating the art from the artist that not everyone in the room accepted, at least not while the artist is still being paid. The session was scheduled around the August solar eclipse, so eclipse glasses were on the list of things to bring.
 
+We mostly enjoyed the pace and the reading experience. It felt more like a fast-food read than a book that goes to any real depth, which makes sense given a marketing strategy built on having it lying in every bookstore in every airport and train station, and which doubles with its success on TikTok. That success is not only the BookTok bubble: from what we observed, it also reaches people who do not usually read much. We would recommend it to someone trying to get back into reading who needs a book with enough happening to hold their attention. Popculturally we also enjoyed the debate it is feeding about tradwife-ism, and how well the book works in a landscape where influencers labelled that way, sometimes by others rather than by themselves, are now publicly distancing themselves from an image they profited from immensely over the past years.
+
 ## Resources
 
 <div class="book-links">
 <ul>
-  <li><a href="https://open.spotify.com/episode/0pnBVUCeqwYc7YnLPHZdKv" target="_blank" rel="noopener">Caro Claire Burke on Diabolical Lies</a> — the author on her route to Yesteryear and on the book itself</li>
-  <li><a href="https://religionnews.com/2026/06/29/yesteryear-is-a-tradwife-satire-its-also-a-strikingly-accurate-portrait-of-american-religion/" target="_blank" rel="noopener">Yesteryear is a tradwife satire. It's also a strikingly accurate portrait of American religion</a> — the Religion News piece we kept quoting</li>
-  <li><a href="https://open.spotify.com/episode/4Arwq10BHjZbTA7SC9Njs1" target="_blank" rel="noopener">Burke on unlikable characters and tradwives</a> — a second podcast conversation</li>
+  <li><a href="https://open.spotify.com/episode/0pnBVUCeqwYc7YnLPHZdKv" target="_blank" rel="noopener">Diabolical Lies</a> — Burke's own podcast, where she talks about her journey to writing Yesteryear and about Yesteryear itself</li>
+  <li><a href="https://religionnews.com/2026/06/29/yesteryear-is-a-tradwife-satire-its-also-a-strikingly-accurate-portrait-of-american-religion/" target="_blank" rel="noopener">Yesteryear is a tradwife satire. It's also a strikingly accurate portrait of American religion</a> — the Religion News piece that read the way the book felt to us on religion</li>
+  <li><a href="https://open.spotify.com/episode/4Arwq10BHjZbTA7SC9Njs1" target="_blank" rel="noopener">Burke on unlikable characters and tradwives</a> — a different show, interviewing her about the novel's themes</li>
   <li>For the influencer side of it: <a href="https://open.spotify.com/episode/3IvDe71H2kmLf5Iig7f2kv" target="_blank" rel="noopener">Nara Smith on Call Her Daddy</a>, and a <a href="https://youtu.be/pFlEreNGHqw" target="_blank" rel="noopener">reaction to that episode</a></li>
 </ul>
 </div>
