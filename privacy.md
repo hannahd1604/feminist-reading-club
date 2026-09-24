@@ -51,8 +51,8 @@ body {
   <h2>What data we collect and why</h2>
   <p>We collect personal data only when you voluntarily submit a form on this site. Two forms are in use:</p>
   <ul>
-    <li><strong>Session comments</strong> (on individual session pages) — you may submit a comment, thought, or question. We ask for an optional name and an optional email address. The email is used only if we want to follow up with you privately; it is never shown publicly.</li>
-    <li><strong>Reading suggestions</strong> (on the Suggestions page) — you may submit a book or topic suggestion, again with an optional name and email.</li>
+    <li><strong>Session comments</strong> (on individual session pages) - you may submit a comment, thought, or question. We ask for an optional name and an optional email address. The email is used only if we want to follow up with you privately; it is never shown publicly.</li>
+    <li><strong>Reading suggestions</strong> (on the Suggestions page) - you may submit a book or topic suggestion, again with an optional name and email.</li>
   </ul>
   <p>We do not collect data through any other means. We do not use analytics, tracking scripts, or advertising.</p>
 
@@ -61,7 +61,7 @@ body {
   <p>Submissions are delivered to the organisers by email and stored in the Formspark dashboard. We do not share your data with any third party.</p>
 
   <h2>How long we keep it</h2>
-  <p>We keep form submissions for as long as they are useful for moderating comments or following up on suggestions — typically no longer than one year. You can ask us to delete your submission at any time.</p>
+  <p>We keep form submissions for as long as they are useful for moderating comments or following up on suggestions - typically no longer than one year. You can ask us to delete your submission at any time.</p>
 
   <h2>Your rights</h2>
   <p>Under the GDPR you have the right to access, correct, or erase personal data we hold about you, and to object to or restrict its processing. To exercise any of these rights, contact us via the <a href="/contact">Suggestions</a> form. We will respond within 30 days.</p>

@@ -5,13 +5,13 @@ subtitle: "Who gets left out when we talk about women's rights?"
 date: 2024-03-17
 ---
 
-Starting with a brief history of feminist waves and ending with intersectionality, this session asked whose liberation the feminist movement has historically centred. We traced the four waves of feminism, introduced Kimberlé Crenshaw's framework for understanding how race, class, and gender overlap, and discussed where contemporary movements like trad wives and TERFs sit within — or against — feminist thought. The session closed with the uncomfortable question of whether "feminism" as a term still serves its original purpose.
+Starting with a brief history of feminist waves and ending with intersectionality, this session asked whose liberation the feminist movement has historically centred. We traced the four waves of feminism, introduced Kimberlé Crenshaw's framework for understanding how race, class, and gender overlap, and discussed where contemporary movements like trad wives and TERFs sit within - or against - feminist thought. The session closed with the uncomfortable question of whether "feminism" as a term still serves its original purpose.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
   <div class="materials-label">Main</div>
   <ul class="materials-list">
-    <li>A short <a href="https://youtu.be/N9YNR7jVZj4" target="_blank" rel="noopener">lecture on the history of feminism</a> — four waves in 15 minutes <span class="dur">(YouTube · 15 min)</span></li>
+    <li>A short <a href="https://youtu.be/N9YNR7jVZj4" target="_blank" rel="noopener">lecture on the history of feminism</a> - four waves in 15 minutes <span class="dur">(YouTube · 15 min)</span></li>
     <li>Kimberlé Crenshaw: <a href="https://www.youtube.com/watch?v=akOe5-UsQ2o" target="_blank" rel="noopener">The urgency of intersectionality</a> <span class="dur">(TED Talk)</span></li>
     <li>Kimberlé Crenshaw's <a href="https://www.youtube.com/watch?v=pqJtjtF5zEc" target="_blank" rel="noopener">KU Leuven honorary doctorate speech</a> <span class="dur">(YouTube)</span></li>
     <li>Financial Times article on the gender voting gap <span class="dur">(article · FT · attached)</span></li>
@@ -34,7 +34,7 @@ Starting with a brief history of feminist waves and ending with intersectionalit
       <li>What biases do you bring to the term?</li>
     </ul>
   </li>
-  <li>A brief history — the four waves
+  <li>A brief history - the four waves
     <ul>
       <li>What each wave achieved and who it left behind</li>
       <li>Why the fourth wave matters: digital activism, intersectionality, global reach</li>

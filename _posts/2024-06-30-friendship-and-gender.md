@@ -32,7 +32,7 @@ This session explored what the "catch-up friendship crisis" says about how we st
   <li>The catch-up friendship crisis
     <ul>
       <li>Why women's friendships get squeezed by life stages and competing expectations</li>
-      <li>Capitalism and the commodification of time — friendship as a casualty</li>
+      <li>Capitalism and the commodification of time - friendship as a casualty</li>
     </ul>
   </li>
   <li>Romance vs. friendship

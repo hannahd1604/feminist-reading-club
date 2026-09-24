@@ -11,8 +11,8 @@ The inaugural session of the Feminist Reading Club explored emotional labour: th
 <div class="materials-block">
   <div class="materials-label">Main</div>
   <ul class="materials-list">
-    <li>Paper 1: <em>A Labour of Love</em> — on the division of emotional labour in relationships and its effects on relationship quality, feelings of being loved, and conflict <span class="dur">(paper · attached)</span></li>
-    <li>Paper 2: Empathy and gender roles — how emotional communication is learned, and why gender-role orientation (rather than biological sex) may predict empathic capacity <span class="dur">(paper · attached)</span></li>
+    <li>Paper 1: <em>A Labour of Love</em> - on the division of emotional labour in relationships and its effects on relationship quality, feelings of being loved, and conflict <span class="dur">(paper · attached)</span></li>
+    <li>Paper 2: Empathy and gender roles - how emotional communication is learned, and why gender-role orientation (rather than biological sex) may predict empathic capacity <span class="dur">(paper · attached)</span></li>
   </ul>
 </div>
 <div class="materials-block">

@@ -12,7 +12,7 @@ Medical science has a women's problem: for decades, drug trials, diagnostic tool
   <div class="materials-label">Main</div>
   <ul class="materials-list">
     <li>A short summary of the history of women as research participants: <a href="https://orwh.od.nih.gov/toolkit/recruitment/history" target="_blank" rel="noopener">NIH Office of Research on Women's Health</a> <span class="dur">(article · NIH)</span></li>
-    <li>This <a href="https://www.nature.com/immersive/d41586-023-01475-2/index.html" target="_blank" rel="noopener">infographic from Nature</a> on women's health research and funding — what gets studied and what gets left out <span class="dur">(infographic · Nature)</span></li>
+    <li>This <a href="https://www.nature.com/immersive/d41586-023-01475-2/index.html" target="_blank" rel="noopener">infographic from Nature</a> on women's health research and funding - what gets studied and what gets left out <span class="dur">(infographic · Nature)</span></li>
     <li>Short articles on how current US politics affects research: <a href="https://pen.org/banned-words-list/" target="_blank" rel="noopener">banning specific words in research</a> and getting rid of <a href="https://www.nature.com/articles/d41586-025-00969-5" target="_blank" rel="noopener">HIV programmes</a> <span class="dur">(articles · PEN / Nature)</span></li>
     <li>To learn more about the violence in gynecology and labour and how often they occur across EU member states: <a href="https://www.europarl.europa.eu/RegData/etudes/STUD/2024/761478/IPOL_STU(2024)761478_EN.pdf" target="_blank" rel="noopener">this European Parliament document</a> <span class="dur">(PDF · European Parliament)</span></li>
     <li>To dig deeper into how women of color, and particularly Black women are affected by both medical racism and misogyny: <a href="https://open.spotify.com/episode/0qVj5PFdYaIFnKuO9TzEbo" target="_blank" rel="noopener">this podcast</a> and <a href="https://www.ywcaworks.org/blogs/ywca/BIPOC-unequal-health-care" target="_blank" rel="noopener">this article</a> <span class="dur">(podcast + article · YWCA)</span></li>
@@ -34,7 +34,7 @@ Medical science has a women's problem: for decades, drug trials, diagnostic tool
     <ul>
       <li>Drugs dosed for male bodies, conditions presenting differently in women</li>
       <li>The history of excluding women from clinical trials (fear of hormonal variability, liability)</li>
-      <li>NIH 1993 mandate requiring women's inclusion — and how slowly it has changed practice</li>
+      <li>NIH 1993 mandate requiring women's inclusion - and how slowly it has changed practice</li>
     </ul>
   </li>
   <li>Political context: what the 2025 US rollbacks mean

@@ -12,7 +12,7 @@ In honor of the summer solstice this month, we look closer into its content real
   <div class="materials-label">Main</div>
   <ul class="materials-list">
     <li>To start with, you could briefly check what people who stand behind the concept actually mean with it, e.g. <a href="https://www.youtube.com/watch?v=BU240WXGcPg" target="_blank" rel="noopener">here</a> <span class="dur">(YouTube · 10 min)</span>, or even <a href="https://www.youtube.com/watch?v=fzmqxT-JQuQ" target="_blank" rel="noopener">how you inspire masculine energy in your man</a> <span class="dur">(YouTube · no need to watch it all, I could only do 10 minutes)</span></li>
-    <li>For a more critical angle we have these videos (both really nice): <a href="https://www.youtube.com/watch?v=JX4Y56w61Xw" target="_blank" rel="noopener">femininity coaches are manipulating you</a> <span class="dur">(YouTube · 18 min)</span>, or also in reference to the most popular gender essentialist book of the 90s <a href="https://www.youtube.com/watch?v=DCH3qFurDeU" target="_blank" rel="noopener">The grift of Gender Essentialism — Khadija Mbowe</a> <span class="dur">(YouTube · 28 min)</span></li>
+    <li>For a more critical angle we have these videos (both really nice): <a href="https://www.youtube.com/watch?v=JX4Y56w61Xw" target="_blank" rel="noopener">femininity coaches are manipulating you</a> <span class="dur">(YouTube · 18 min)</span>, or also in reference to the most popular gender essentialist book of the 90s <a href="https://www.youtube.com/watch?v=DCH3qFurDeU" target="_blank" rel="noopener">The grift of Gender Essentialism - Khadija Mbowe</a> <span class="dur">(YouTube · 28 min)</span></li>
     <li>To dive deeper into gender essentialism and its usefulness or not: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3290896/" target="_blank" rel="noopener">pmc.ncbi.nlm.nih.gov/articles/PMC3290896</a> <span class="dur">(article · PMC)</span></li>
     <li>Coming back to the more esoteric vibe of this topic, we can read on exclusion of queer people in these practices <a href="https://www.fsrinc.org/baptized-without-blood-calling-out-gender-essentialism-in-modern-magic/" target="_blank" rel="noopener">here</a> <span class="dur">(article · FSRI)</span></li>
     <li>And eventually we can link the topic as well to the current political climate <a href="https://www.teenvogue.com/story/divine-feminine-advice-on-tiktok" target="_blank" rel="noopener">here</a> <span class="dur">(Teen Vogue)</span> and toxic masculinity <a href="https://www.tandfonline.com/doi/epdf/10.1080/07256868.2026.2626253" target="_blank" rel="noopener">here</a> <span class="dur">(paper · Taylor &amp; Francis · 2026)</span></li>
@@ -29,21 +29,21 @@ In honor of the summer solstice this month, we look closer into its content real
 <ol class="structure-list">
   <li>What is the divine feminine?
     <ul>
-      <li>Origins in Carl Jung — male and female energy as psychological archetypes, now circulating widely stripped of context</li>
+      <li>Origins in Carl Jung - male and female energy as psychological archetypes, now circulating widely stripped of context</li>
       <li>How this concept maps onto gender: feminine energy = receptive, nurturing, emotional; masculine = active, rational, dominant</li>
     </ul>
   </li>
-  <li>Gender essentialism — is there one correct way of being a woman?
+  <li>Gender essentialism - is there one correct way of being a woman?
     <ul>
       <li>What is gender essentialism and why does it appeal?</li>
-      <li>How esoteric content online often reasserts it — femininity coaching, divine feminine branding</li>
+      <li>How esoteric content online often reasserts it - femininity coaching, divine feminine branding</li>
       <li>What does science say about gender differences? (PMC article)</li>
     </ul>
   </li>
   <li>Esotericism as an alternative to institutional religion
     <ul>
       <li>Why might women seek spiritual practice outside churches, mosques, and temples?</li>
-      <li>The appeal of a women-centred space — and who gets to be in that space</li>
+      <li>The appeal of a women-centred space - and who gets to be in that space</li>
       <li>Exclusion of queer people, trans people, and BIPOC practitioners in many esoteric spaces</li>
     </ul>
   </li>

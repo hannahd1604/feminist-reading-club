@@ -12,7 +12,7 @@ This session took on the girlboss and her discontents. We wanted to understand h
   <div class="materials-label">Main</div>
   <ul class="materials-list">
     <li>The European Commission's own overview of <a href="https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/gender-equality/women-labour-market-work-life-balance/womens-situation-labour-market_en" target="_blank" rel="noopener">women's situation in the labour market</a> <span class="dur">(EC · webpage)</span>, which lays out how much more unpaid work women do than men, backed by <a href="https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_TIME_USE%40DF_TIME_USE&df[ag]=OECD.WISE.INE&dq=..&to[TIME]=false&vw=tb" target="_blank" rel="noopener">OECD time-use data</a> <span class="dur">(data explorer)</span></li>
-    <li>An <a href="https://www.europarl.europa.eu/RegData/etudes/ATAG/2025/767188/EPRS_ATA(2025)767188_EN.pdf" target="_blank" rel="noopener">EPRS briefing on how women are disadvantaged in the tax system</a> <span class="dur">(European Parliament · 2025 · PDF)</span> — pink tax, period poverty, and joint household taxation, all in one document</li>
+    <li>An <a href="https://www.europarl.europa.eu/RegData/etudes/ATAG/2025/767188/EPRS_ATA(2025)767188_EN.pdf" target="_blank" rel="noopener">EPRS briefing on how women are disadvantaged in the tax system</a> <span class="dur">(European Parliament · 2025 · PDF)</span> - pink tax, period poverty, and joint household taxation, all in one document</li>
     <li><a href="https://www.nature.com/articles/s41599-023-02341-2" target="_blank" rel="noopener">Back to Marx: reflections on the feminist crisis at the crossroads of neoliberalism and neoconservatism</a> <span class="dur">(paper · Nature Humanities and Social Sciences Communications)</span>, which supplied most of our working definitions</li>
     <li>Two recommended reads that didn't come with a link but are worth tracking down: "Feminism hijacked by neoliberalism" and "The cause of gender inequality: capitalism or patriarchy?"</li>
     <li>A podcast episode on <a href="https://open.spotify.com/episode/4Osy9wEA9GzyCFitnYKHoy?si=SRpuEdSxQb_c7bTp_czjhA" target="_blank" rel="noopener">antigirlboss feminism of the 1970s</a> <span class="dur">(podcast)</span>, a good reminder that this critique is decades old</li>
@@ -80,7 +80,7 @@ This session took on the girlboss and her discontents. We wanted to understand h
       <li>Lise Vogel's critique that socialist movements historically didn't dig deep enough into the roots of women's oppression to actually liberate women</li>
       <li>A Polish woman's account: life under communism was arguably better than now in some respects, but came with its own "double burden" of paid work stacked on unpaid labour, which we debated as still recognisable today</li>
       <li>From the Nature paper: neoliberalism sells women's economic independence as success, reframes family policy as a matter of national competitiveness, and produces "communicative capitalism," where wearing a slogan on a t-shirt feels like political action without being one</li>
-      <li>Gender is one axis among several — age, race, and immigration status all feed capital accumulation too</li>
+      <li>Gender is one axis among several - age, race, and immigration status all feed capital accumulation too</li>
       <li>And it traces back to land and ownership: private patriarchy inside the household gave way to a "capitalist patriarchy" operating in both public and private life</li>
     </ul>
   </li>
@@ -99,9 +99,9 @@ This session took on the girlboss and her discontents. We wanted to understand h
   <li>Further reading:
     <ul>
       <li>For anyone who wants to sit longer with the historical thread on unpaid labour and the double burden we kept circling back to:</li>
-      <li>Silvia Federici — Caliban and the Witch</li>
-      <li>Silvia Federici — Revolution at Point Zero</li>
-      <li>Slavenka Drakulić — How We Survived Communism and Even Laughed</li>
+      <li>Silvia Federici - Caliban and the Witch</li>
+      <li>Silvia Federici - Revolution at Point Zero</li>
+      <li>Slavenka Drakulić - How We Survived Communism and Even Laughed</li>
     </ul>
   </li>
 </ol>

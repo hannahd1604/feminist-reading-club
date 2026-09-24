@@ -1,4 +1,4 @@
-# Shelf — community recommendations
+# Shelf - community recommendations
 # Types: article, youtube, spotify, playlist, book, reddit, newsletter
 # For books: leave url blank (we don't link to Amazon/Goodreads)
 # To add an item: copy a block, fill in fields, paste at the top of the list
@@ -31,7 +31,7 @@
   title: "Margot Robbie, Jacob Elordi & Alison Oliver: Wuthering Heights"
   creator: "Inklings Book Club"
   url: "https://open.spotify.com/episode/0as7gO4hwFuaLSNsdZLKBw"
-  note: "Contains a broad storyline — no direct spoilers"
+  note: "Contains a broad storyline - no direct spoilers"
   date: "Jun 2026"
 
 - type: spotify
@@ -54,7 +54,7 @@
   date: "Jun 2026"
 
 - type: youtube
-  title: "Inside Cathy's Wuthering Heights House with Margot Robbie — Set Tour"
+  title: "Inside Cathy's Wuthering Heights House with Margot Robbie - Set Tour"
   creator: "Architectural Digest"
   url: "https://youtu.be/SxK9N-oig4g"
   date: "Jun 2026"
@@ -95,7 +95,7 @@
   date: "Jun 2026"
 
 - type: article
-  title: "ADD TITLE — Nature article"
+  title: "ADD TITLE - Nature article"
   creator: "Nature"
   url: "https://www.nature.com/articles/d41586-026-00526-8"
   date: "Jun 2026"
@@ -116,7 +116,7 @@
   title: "Clavicular Is a Symptom, Not The Cause"
   creator: "A Bit Fruity with Matt Bernstein"
   url: "https://open.spotify.com/episode/4GcjdII9Jxh8vkhU0XgOIY"
-  note: "One of the best episodes so far — super interesting societal analysis"
+  note: "One of the best episodes so far - super interesting societal analysis"
   date: "Jun 2026"
 
 - type: spotify
@@ -126,7 +126,7 @@
   date: "Jun 2026"
 
 - type: spotify
-  title: "Can AI Save Your Relationship? I Asked the Experts — And a Real Couple"
+  title: "Can AI Save Your Relationship? I Asked the Experts - And a Real Couple"
   creator: "Future of Sex"
   url: "https://open.spotify.com/episode/2GmjHKpvQomkFWd3hPzhqf"
   date: "Jun 2026"
@@ -139,7 +139,7 @@
 
 - type: newsletter
   title: "Mediterranea BXL"
-  creator: "Brussels chapter of Italian sea rescue NGO — max once a month"
+  creator: "Brussels chapter of Italian sea rescue NGO - max once a month"
   url: "https://substack.com/@mediterraneabxl"
   date: "Jun 2026"
 

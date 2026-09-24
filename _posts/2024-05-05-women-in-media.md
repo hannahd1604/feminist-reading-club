@@ -41,7 +41,7 @@ This session examined how women have been depicted in popular film and televisio
   <li>What did MeToo change?
     <ul>
       <li>Paper findings: how female characters shifted pre- and post-MeToo</li>
-      <li>Submissive depiction of women — what persists?</li>
+      <li>Submissive depiction of women - what persists?</li>
     </ul>
   </li>
   <li>Toxic media culture in the early 2000s
@@ -52,7 +52,7 @@ This session examined how women have been depicted in popular film and televisio
   </li>
   <li>Today: different approaches
     <ul>
-      <li>Euphoria vs Heartstopper — how do they depict young women differently?</li>
+      <li>Euphoria vs Heartstopper - how do they depict young women differently?</li>
       <li>Has the industry actually changed, or just its marketing?</li>
     </ul>
   </li>

@@ -1,7 +1,7 @@
 title: Feminist Reading Club
 description: >-
   Monthly gatherings for cosy, insightful discussions on intersectional
-  feminist topics — guided by papers, essays, films, and books.
+  feminist topics - guided by papers, essays, films, and books.
   Based in Brussels.
 baseurl: ""
 url: "https://feminist-reading-club.com"
@@ -23,7 +23,7 @@ collections:
 # Session posts use /sessions/ URL prefix
 permalink: /sessions/:title/
 
-# Pagination — sessions index is the paginator base
+# Pagination - sessions index is the paginator base
 paginate: 15
 paginate_path: "/sessions/page:num/"
 

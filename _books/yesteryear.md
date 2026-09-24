@@ -20,9 +20,9 @@ We mostly enjoyed the pace and the reading experience. It felt more like a fast-
 
 <div class="book-links">
 <ul>
-  <li><a href="https://open.spotify.com/episode/0pnBVUCeqwYc7YnLPHZdKv" target="_blank" rel="noopener">Diabolical Lies</a> — Burke's own podcast, where she talks about her journey to writing Yesteryear and about Yesteryear itself</li>
-  <li><a href="https://religionnews.com/2026/06/29/yesteryear-is-a-tradwife-satire-its-also-a-strikingly-accurate-portrait-of-american-religion/" target="_blank" rel="noopener">Yesteryear is a tradwife satire. It's also a strikingly accurate portrait of American religion</a> — the Religion News piece that read the way the book felt to us on religion</li>
-  <li><a href="https://open.spotify.com/episode/4Arwq10BHjZbTA7SC9Njs1" target="_blank" rel="noopener">Burke on unlikable characters and tradwives</a> — a different show, interviewing her about the novel's themes</li>
+  <li><a href="https://open.spotify.com/episode/0pnBVUCeqwYc7YnLPHZdKv" target="_blank" rel="noopener">Diabolical Lies</a> - Burke's own podcast, where she talks about her journey to writing Yesteryear and about Yesteryear itself</li>
+  <li><a href="https://religionnews.com/2026/06/29/yesteryear-is-a-tradwife-satire-its-also-a-strikingly-accurate-portrait-of-american-religion/" target="_blank" rel="noopener">Yesteryear is a tradwife satire. It's also a strikingly accurate portrait of American religion</a> - the Religion News piece that read the way the book felt to us on religion</li>
+  <li><a href="https://open.spotify.com/episode/4Arwq10BHjZbTA7SC9Njs1" target="_blank" rel="noopener">Burke on unlikable characters and tradwives</a> - a different show, interviewing her about the novel's themes</li>
   <li>For the influencer side of it: <a href="https://open.spotify.com/episode/3IvDe71H2kmLf5Iig7f2kv" target="_blank" rel="noopener">Nara Smith on Call Her Daddy</a>, and a <a href="https://youtu.be/pFlEreNGHqw" target="_blank" rel="noopener">reaction to that episode</a></li>
 </ul>
 </div>

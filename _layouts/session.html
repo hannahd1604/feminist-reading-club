@@ -320,7 +320,7 @@ body {
         <button class="ctab active">Leave a comment</button>
       </div>
       <p class="comment-note">Comments are reviewed by the organisers before appearing here.</p>
-      <form class="cform" action="https://submit.formspark.io/f/2x0lSx5iZ" method="POST">
+      <form class="cform" action="https://submit-form.com/2x0lSx5iZ" method="POST">
         <input type="text" name="name" placeholder="Name (optional)">
         <input type="email" name="email" placeholder="Email (not shown publicly)" required>
         <input type="hidden" name="session" value="{{ page.title }}">
@@ -362,7 +362,7 @@ body {
         <div class="slink-num">{{ book.year }}</div>
         <div class="slink-title">
           <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
-          <span style="font-weight:normal; color: var(--m)"> — {{ book.author }}</span>
+          <span style="font-weight:normal; color: var(--m)"> - {{ book.author }}</span>
         </div>
       </div>
     {% endfor %}

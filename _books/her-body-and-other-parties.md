@@ -18,8 +18,8 @@ We came out of it partly quite confused, and still glad to have read it: magical
 
 <div class="book-links">
 <ul>
-  <li><a href="https://www.vox.com/culture/23025602/her-body-and-other-parties-review-carmen-maria-machado" target="_blank" rel="noopener">Vox on Her Body and Other Parties</a> — a good entry point if you have not read it yet</li>
-  <li><a href="https://worldssmallestbookclub.com/2018/12/31/book-club-her-body-and-other-parties-by-carmen-maria-machado/" target="_blank" rel="noopener">World's Smallest Book Club</a> and <a href="https://boredtodeathbookclub.substack.com/p/ive-read-her-body-and-other-parties-now-what" target="_blank" rel="noopener">Bored to Death Book Club</a> — two question sets our own structure borrowed from</li>
-  <li><a href="https://meltotheany.com/2017/11/27/her-body-and-other-parties-by-carmen-maria-machado/" target="_blank" rel="noopener">A story-by-story review</a> — helpful if you want to revisit a single story</li>
+  <li><a href="https://www.vox.com/culture/23025602/her-body-and-other-parties-review-carmen-maria-machado" target="_blank" rel="noopener">Vox on Her Body and Other Parties</a> - a good entry point if you have not read it yet</li>
+  <li><a href="https://worldssmallestbookclub.com/2018/12/31/book-club-her-body-and-other-parties-by-carmen-maria-machado/" target="_blank" rel="noopener">World's Smallest Book Club</a> and <a href="https://boredtodeathbookclub.substack.com/p/ive-read-her-body-and-other-parties-now-what" target="_blank" rel="noopener">Bored to Death Book Club</a> - two question sets our own structure borrowed from</li>
+  <li><a href="https://meltotheany.com/2017/11/27/her-body-and-other-parties-by-carmen-maria-machado/" target="_blank" rel="noopener">A story-by-story review</a> - helpful if you want to revisit a single story</li>
 </ul>
 </div>

@@ -1,11 +1,11 @@
 ---
 layout: session
 title: "Women in Academia"
-subtitle: "Half the staff, a fifth of the professors — is the pipeline leaking, or was it built this way?"
+subtitle: "Half the staff, a fifth of the professors - is the pipeline leaking, or was it built this way?"
 date: 2026-08-30
 ---
 
-Most of us either work in academia or studied at a university, which made this the session where the figures and the personal stories were hardest to keep apart. We started with what sexism actually is, using a continuum that runs from the everyday subtle kind that makes you wonder whether you are imagining it all the way through to harassment. Then we went to the numbers: KU Leuven's own scissor graph, the credit and citation gaps, the motherhood penalty, and what happens to women of colour in a system that already loses women early. The easy explanation for why women leave academia is children, so we spent most of the session on the harder ones — departmental culture, double standards, the service burden, and the absence of anyone senior who looks like you. We ended somewhere smaller and more practical than the problem: read each other's applications, practise each other's interviews, pass on the jobs and conferences we hear about.
+Most of us either work in academia or studied at a university, which made this the session where the figures and the personal stories were hardest to keep apart. We started with what sexism actually is, using a continuum that runs from the everyday subtle kind that makes you wonder whether you are imagining it all the way through to harassment. Then we went to the numbers: KU Leuven's own scissor graph, the credit and citation gaps, the motherhood penalty, and what happens to women of colour in a system that already loses women early. The easy explanation for why women leave academia is children, so we spent most of the session on the harder ones - departmental culture, double standards, the service burden, and the absence of anyone senior who looks like you. We ended somewhere smaller and more practical than the problem: read each other's applications, practise each other's interviews, pass on the jobs and conferences we hear about.
 
 <div class="section-head" id="materials">Materials</div>
 <div class="materials-block">
@@ -15,7 +15,7 @@ Most of us either work in academia or studied at a university, which made this t
     <li>Nuanced for women of colour: <a href="https://www.nationalacademies.org/read/18556/chapter/12" target="_blank" rel="noopener">Seeking Solutions, chapter 12</a> <span class="dur">(National Academies · data from 2007–2010 · Table A-2-1, Figure A-2-1, Table A-2-4)</span></li>
     <li>To get an impression of what women experience working in academia, these pretty (and shocking) illustrations: <a href="https://didthisreallyhappen.net/" target="_blank" rel="noopener">didthisreallyhappen.net</a> <span class="dur">(webcomic archive)</span></li>
     <li>What sexism is, as a continuum rather than a single act: <a href="https://sexismedu.dk/exploring/" target="_blank" rel="noopener">sexismedu.dk</a> <span class="dur">(webpage)</span></li>
-    <li>A few papers on academic output — read the abstract and as much as you feel like, the conclusion is often informative enough: <a href="https://www.nature.com/articles/s41586-022-04966-w" target="_blank" rel="noopener">women are less likely than men to be credited for their work</a> <span class="dur">(paper · Nature)</span>, <a href="https://journals.sagepub.com/doi/10.1177/2378023117738903" target="_blank" rel="noopener">men cite their own research more often</a> <span class="dur">(paper · Socius)</span>, which then leads to higher impact and additional citations, and <a href="https://www.uhasselt.be/en/about-hasselt-university/news/female-scientists-wait-up-to-ten-weeks-longer-for-publication-than-men" target="_blank" rel="noopener">papers by women stay longer under review</a> <span class="dur">(UHasselt · news)</span></li>
+    <li>A few papers on academic output - read the abstract and as much as you feel like, the conclusion is often informative enough: <a href="https://www.nature.com/articles/s41586-022-04966-w" target="_blank" rel="noopener">women are less likely than men to be credited for their work</a> <span class="dur">(paper · Nature)</span>, <a href="https://journals.sagepub.com/doi/10.1177/2378023117738903" target="_blank" rel="noopener">men cite their own research more often</a> <span class="dur">(paper · Socius)</span>, which then leads to higher impact and additional citations, and <a href="https://www.uhasselt.be/en/about-hasselt-university/news/female-scientists-wait-up-to-ten-weeks-longer-for-publication-than-men" target="_blank" rel="noopener">papers by women stay longer under review</a> <span class="dur">(UHasselt · news)</span></li>
     <li>Everyone's favourite argument, children: <a href="https://www.nature.com/articles/d41586-026-00981-3" target="_blank" rel="noopener">Nature on motherhood in academia</a> <span class="dur">(article · Nature · 2026)</span></li>
     <li>Some actions that are being taken: <a href="https://www.inspirequality.eu/about" target="_blank" rel="noopener">INSPIRE</a> <span class="dur">(EU-funded centre of excellence on gender equality in research)</span>, with a <a href="https://www.youtube.com/watch?v=ZTaRAN-QYA4" target="_blank" rel="noopener">short introduction video</a> <span class="dur">(YouTube)</span></li>
   </ul>
@@ -34,7 +34,7 @@ Most of us either work in academia or studied at a university, which made this t
     <ul>
       <li>Lisa Ann Richey's continuum model: from everyday subtle sexism that makes you think "is it just me, am I crazy?" through to sexual harassment</li>
       <li>Recognising it is the precondition for acting against it</li>
-      <li>"Did this really happen to me" — the one that stuck with you</li>
+      <li>"Did this really happen to me" - the one that stuck with you</li>
       <li>#MeTooSTEM, and the #MeToo wave in Danish higher education</li>
     </ul>
   </li>
@@ -80,7 +80,7 @@ Most of us either work in academia or studied at a university, which made this t
     <ul>
       <li>The easy answer is children, but the real answer is institutional barriers and culture</li>
       <li>Double standards: higher expectations of women in community service and in article quality, plus the service burden</li>
-      <li>Internalised misogyny — why do women in academia turn on other women, why are prolific female scientists so often perceived as evil, and why are some of them actually evil?</li>
+      <li>Internalised misogyny - why do women in academia turn on other women, why are prolific female scientists so often perceived as evil, and why are some of them actually evil?</li>
       <li>Departmental culture, confidence and imposter syndrome, and the absence of role models</li>
       <li>We shared personal experiences here, including why each of us chose, or did not choose, academia as a workplace</li>
     </ul>
@@ -97,7 +97,7 @@ Most of us either work in academia or studied at a university, which made this t
       <li>Report? Only 7% of students and 23% of staff report gender-based violence incidents at their institution</li>
       <li>The European Commission's 2024 zero-tolerance code of conduct</li>
       <li>Mentoring?</li>
-      <li>Support each other concretely, with jobs in mind: read each other's applications, practise interviews, share job and conference calls — possibly as a group of its own</li>
+      <li>Support each other concretely, with jobs in mind: read each other's applications, practise interviews, share job and conference calls - possibly as a group of its own</li>
     </ul>
   </li>
 </ol>

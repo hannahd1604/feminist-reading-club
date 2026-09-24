@@ -13,8 +13,8 @@ Language both reflects and reinforces our ideas about gender: in gendered gramma
   <ul class="materials-list">
     <li><a href="https://acjol.org/index.php/njll/article/view/3958/3877" target="_blank" rel="noopener">Paper on gender identity and language</a> <span class="dur">(paper)</span></li>
     <li>TED Talk: <a href="https://www.youtube.com/watch?v=NcyTQK-FaMM" target="_blank" rel="noopener">gender bias in language</a> <span class="dur">(YouTube)</span></li>
-    <li>The Allusionist podcast: <a href="https://open.spotify.com/episode/3WqMA7vJ80a5xstwbVpRrT" target="_blank" rel="noopener">trans parents and the language of parenthood</a> — what happens when "mum" and "dad" don't fit <span class="dur">(Spotify)</span></li>
-    <li><a href="https://journals.sagepub.com/doi/full/10.1177/0891243220979636" target="_blank" rel="noopener">Paper on "you guys" and gendered language</a> — why our default plurals matter <span class="dur">(paper · Sage)</span></li>
+    <li>The Allusionist podcast: <a href="https://open.spotify.com/episode/3WqMA7vJ80a5xstwbVpRrT" target="_blank" rel="noopener">trans parents and the language of parenthood</a> - what happens when "mum" and "dad" don't fit <span class="dur">(Spotify)</span></li>
+    <li><a href="https://journals.sagepub.com/doi/full/10.1177/0891243220979636" target="_blank" rel="noopener">Paper on "you guys" and gendered language</a> - why our default plurals matter <span class="dur">(paper · Sage)</span></li>
   </ul>
 </div>
 <div class="materials-block">
@@ -39,7 +39,7 @@ Language both reflects and reinforces our ideas about gender: in gendered gramma
       <li>What is gained when a language lacks grammatical gender?</li>
     </ul>
   </li>
-  <li>Language shapes gender — Judith Butler
+  <li>Language shapes gender - Judith Butler
     <ul>
       <li>Performativity: language doesn't describe gender, it constitutes it</li>
       <li>Does calling something "women's work" make it so?</li>

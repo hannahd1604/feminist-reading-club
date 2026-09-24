@@ -14,14 +14,14 @@ We hold an intersectional, radically inclusive feminism, one that makes space fi
 
 ## How It Works
 
-Each session focuses on one theme, with optional material shared beforehand — a short video, an article, occasionally a longer read — to give everyone a shared starting point, not homework. Sessions are open to everyone, whatever your background. The Book Club is a separate, smaller track: one book every few months.
+Each session focuses on one theme, with optional material shared beforehand - a short video, an article, occasionally a longer read - to give everyone a shared starting point, not homework. Sessions are open to everyone, whatever your background. The Book Club is a separate, smaller track: one book every few months.
 
 ## Who's Behind This
 
-I'm Hannah (she/her) — endlessly curious, which is partly how I ended up with two master's degrees, in psychology and neuroscience, and why I'm now working on a PhD in genetics. Alongside science, I've always been drawn to ethics and sociology. When I'm not reading or thinking about any of it, you'll usually find me outside somewhere, or at home sewing, crocheting, or embroidering something. I run the club together with a friend, and community members sometimes step in to co-host a session close to their own expertise or interests.
+I'm Hannah (she/her) - endlessly curious, which is partly how I ended up with two master's degrees, in psychology and neuroscience, and why I'm now working on a PhD in genetics. Alongside science, I've always been drawn to ethics and sociology. When I'm not reading or thinking about any of it, you'll usually find me outside somewhere, or at home sewing, crocheting, or embroidering something. I run the club together with a friend, and community members sometimes step in to co-host a session close to their own expertise or interests.
 
 ## Get Involved
 
-Want to suggest a topic, a book, or a reading? Use the [Suggestions](/contact) form — many of our best sessions started that way.
+Want to suggest a topic, a book, or a reading? Use the [Suggestions](/contact) form - many of our best sessions started that way.
 
 This page is also for anyone who wants to start something similar elsewhere. You're welcome to draw on our format, with credit to the Feminist Reading Club as the original source. Doing so means agreeing to the terms in our [Disclaimer](/disclaimer) and [Privacy notice](/privacy).
