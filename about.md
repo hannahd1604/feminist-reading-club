@@ -22,6 +22,4 @@ I'm Hannah (she/her) - endlessly curious, which is partly how I ended up with tw
 
 ## Get Involved
 
-Want to suggest a topic, a book, or a reading? Use the [Suggestions](/contact) form - many of our best sessions started that way.
-
 This page is also for anyone who wants to start something similar elsewhere. You're welcome to draw on our format, with credit to the Feminist Reading Club as the original source. Doing so means agreeing to the terms in our [Disclaimer](/disclaimer) and [Privacy notice](/privacy).
