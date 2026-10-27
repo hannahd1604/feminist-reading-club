@@ -100,12 +100,6 @@
   year: 2026
   date: "Jul 2026"
 
-- type: book
-  title: "Half His Age"
-  creator: "Jennette McCurdy"
-  year: 2026
-  date: "Jun 2026"
-
 - type: spotify
   title: "Margot Robbie, Jacob Elordi & Alison Oliver: Wuthering Heights"
   creator: "Inklings Book Club"
@@ -174,7 +168,7 @@
   date: "Jun 2026"
 
 - type: article
-  title: "ADD TITLE - Nature article"
+  title: "Uncharted: understanding women's health across the body"
   creator: "Nature"
   url: "https://www.nature.com/articles/d41586-026-00526-8"
   date: "Jun 2026"
