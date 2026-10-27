@@ -83,6 +83,7 @@ body {
 .frc-shcard[data-type="reddit"]::before     { background: var(--grm); }
 .frc-shcard[data-type="newsletter"]::before { background: var(--pu); }
 .frc-shcard[data-type="playlist"]::before   { background: var(--gr); }
+.frc-shcard[data-type="event"]::before      { background: var(--pum); }
 
 .frc-shcard.is-link { text-decoration: none; cursor: pointer; }
 .frc-shcard.is-link:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(74,31,106,0.13); }
@@ -100,6 +101,7 @@ body {
 .frc-shcard[data-type="reddit"]     .frc-shcard-type { color: var(--grm); }
 .frc-shcard[data-type="newsletter"] .frc-shcard-type { color: var(--pu); }
 .frc-shcard[data-type="playlist"]   .frc-shcard-type { color: var(--gr); }
+.frc-shcard[data-type="event"]      .frc-shcard-type { color: var(--pum); }
 
 .frc-shcard-title {
   font-family: 'Courier New', Courier, monospace; font-size: 0.93rem;
@@ -173,6 +175,7 @@ body {
             {% when "reddit" %}Thread
             {% when "newsletter" %}Newsletter
             {% when "playlist" %}Playlist
+            {% when "event" %}Event
             {% else %}{{ item.type }}
           {% endcase %}
         </div>

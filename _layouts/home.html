@@ -127,6 +127,7 @@ body {
 .frc-shcard-mini[data-type="book"]::before       { background: var(--pum); }
 .frc-shcard-mini[data-type="reddit"]::before     { background: var(--grm); }
 .frc-shcard-mini[data-type="newsletter"]::before { background: var(--pu); }
+.frc-shcard-mini[data-type="event"]::before      { background: var(--pum); }
 .frc-shcard-mini:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(74,31,106,0.11); }
 .frc-shcard-mini-type {
   font-family: 'Courier New', Courier, monospace;
@@ -260,6 +261,7 @@ body {
             {% when "reddit" %}Thread
             {% when "newsletter" %}Newsletter
             {% when "playlist" %}Playlist
+            {% when "event" %}Event
             {% else %}{{ item.type }}
           {% endcase %}
         </div>
