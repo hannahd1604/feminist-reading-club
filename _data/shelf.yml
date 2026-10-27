@@ -3,6 +3,79 @@
 # For books: leave url blank (we don't link to Amazon/Goodreads)
 # To add an item: copy a block, fill in fields, paste at the top of the list
 
+- type: book
+  title: "The New Age of Sexism"
+  creator: "Laura Bates"
+  year: 2025
+  date: "Oct 2026"
+
+- type: book
+  title: "Kindred"
+  creator: "Octavia E. Butler"
+  year: 1979
+  date: "Oct 2026"
+
+- type: book
+  title: "Heimat"
+  creator: "Hannah Lühmann"
+  year: 2025
+  date: "Oct 2026"
+
+- type: book
+  title: "Monstergott"
+  creator: "Caroline Schmitt"
+  year: 2025
+  date: "Oct 2026"
+
+- type: book
+  title: "Die schönste Version"
+  creator: "Ruth-Maria Thomas"
+  year: 2024
+  date: "Oct 2026"
+
+- type: book
+  title: "How We Survived Communism and Even Laughed"
+  creator: "Slavenka Drakulić"
+  year: 1991
+  date: "Oct 2026"
+
+- type: article
+  title: "Wat zit er achter de leaky pipeline? - inleiding startevent"
+  creator: "Evelien Pieters · PAF - Platform voor Architectuur & Feminisme"
+  url: "https://www.paf.community/verslag/3hvxgqg6bwmqpc3wwt7pf4s9iwquxh"
+  date: "Oct 2026"
+
+- type: article
+  title: "Women academics feeling devalued can be fatal career blow"
+  creator: "Science"
+  url: "https://www.science.org/content/article/women-academics-feeling-devalued-can-be-fatal-career-blow"
+  date: "Oct 2026"
+
+- type: article
+  title: "Winning the Bread and Baking It Too: Gendered Frictions in the Allocation of Home Production"
+  creator: "NBER Working Paper · Kyle Hancock, Jeanne Lafortune & Corinne Low"
+  url: "https://www.nber.org/system/files/working_papers/w33393/w33393.pdf"
+  date: "Oct 2026"
+
+- type: youtube
+  title: "Corinne Low on Winning the Bread and Baking it Too"
+  creator: "hceconomics"
+  url: "https://www.youtube.com/watch?v=zXLWTQxJ6Ww"
+  date: "Oct 2026"
+
+- type: spotify
+  title: "Monica Lewinsky"
+  creator: "You're Wrong About"
+  url: "https://open.spotify.com/episode/2uC0sdL8DJdi9oEBf8tjsb"
+  date: "Oct 2026"
+
+- type: article
+  title: "A Room Of His Own"
+  creator: "Nona Demey Gallagher · 30CC/Schouwburg"
+  url: "https://www.30cc.be/nl/programma/item/a-room-of-his-own-2026-2027"
+  note: "Theatre - a dark comedy about pornography, power, and Andrea Dworkin. 9 Feb 2027, 20:00"
+  date: "Oct 2026"
+
 - type: spotify
   title: "The Technofascist Urge To Never Turn Down a Brand Deal"
   creator: "A Bit Fruity with Matt Bernstein"
